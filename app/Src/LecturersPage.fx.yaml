@@ -84,16 +84,22 @@ LecturersPage As screen:
         ZIndex: =12
 
     Container1 As groupContainer.verticalAutoLayoutContainer:
-        Height: =55
+        Height: =80
         LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =1365
         ZIndex: =13
 
+        Label1 As label:
+            Align: =Align.Center
+            Text: ="OnBoardOne"
+            ZIndex: =1
+
     Container5 As groupContainer.horizontalAutoLayoutContainer:
-        Height: =713
+        Height: =688
         LayoutMode: =LayoutMode.Auto
         Width: =153
-        Y: =55
+        Y: =80
         ZIndex: =14
 
