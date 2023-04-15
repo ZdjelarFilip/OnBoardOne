@@ -77,6 +77,7 @@ WelcomeScreen As screen:
         Height: =91
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(AktualniDogodkiScreen, ScreenTransition.Fade)
         RadiusBottomLeft: =30
         RadiusBottomRight: =30
         RadiusTopLeft: =30
@@ -87,4 +88,25 @@ WelcomeScreen As screen:
         X: =1012
         Y: =534
         ZIndex: =6
+
+    Button1_3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(217, 85, 85, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =91
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(PrijavaNaDogodekScreen_test, ScreenTransition.Fade)
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Size: =15
+        Text: ="Prijava na Dogodek"
+        Width: =265
+        X: =1012
+        Y: =341
+        ZIndex: =7
 

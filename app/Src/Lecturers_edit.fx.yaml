@@ -17,8 +17,8 @@ Lecturers_edit As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Size: =20
-            Text: ="OnBoardOne"
-            Width: =300
+            Text: ="Dodaj novega nosilca"
+            Width: =500
             ZIndex: =1
 
     Container5_7 As groupContainer.horizontalAutoLayoutContainer:
@@ -51,8 +51,12 @@ Lecturers_edit As screen:
         ZIndex: =5
 
     lecturers_edit_form As form:
+        AcceptsFocus: =true
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderThickness: =1
         DataSource: =Lecturers_1
         Item: =Gallery_lecturers.Selected
+        NumberOfColumns: =1
         X: =315
         Y: =174
         ZIndex: =9
@@ -68,12 +72,13 @@ Lecturers_edit As screen:
             MaxLength: =DataSourceInfo([@Lecturers_1], DataSourceInfo.MaxLength, "Title")
             Required: =false
             Update: =DataCardValue6.Text
-            Width: =266
+            Width: =799
             X: =0
             Y: =0
             ZIndex: =10
 
             DataCardKey6 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -136,12 +141,13 @@ Lecturers_edit As screen:
             MaxLength: =DataSourceInfo([@Lecturers_1], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =266
-            X: =1
-            Y: =0
+            Width: =799
+            X: =0
+            Y: =1
             ZIndex: =10
 
             DataCardKey7 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -204,12 +210,13 @@ Lecturers_edit As screen:
             MaxLength: =DataSourceInfo([@Lecturers_1], DataSourceInfo.MaxLength, "field_2")
             Required: =false
             Update: =DataCardValue8.Text
-            Width: =266
-            X: =2
-            Y: =0
+            Width: =799
+            X: =0
+            Y: =2
             ZIndex: =10
 
             DataCardKey8 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -272,12 +279,13 @@ Lecturers_edit As screen:
             MaxLength: =DataSourceInfo([@Lecturers_1], DataSourceInfo.MaxLength, "field_3")
             Required: =false
             Update: =DataCardValue9.Text
-            Width: =266
+            Width: =799
             X: =0
-            Y: =1
+            Y: =3
             ZIndex: =10
 
             DataCardKey9 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -340,12 +348,13 @@ Lecturers_edit As screen:
             MaxLength: =DataSourceInfo([@Lecturers_1], DataSourceInfo.MaxLength, "field_4")
             Required: =false
             Update: =DataCardValue10.Text
-            Width: =266
-            X: =1
-            Y: =1
+            Width: =799
+            X: =0
+            Y: =4
             ZIndex: =10
 
             DataCardKey10 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -395,71 +404,6 @@ Lecturers_edit As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey10.Y
-                ZIndex: =4
-
-        Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Attachments}"
-            Default: =ThisItem.Priloge
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Lecturers_1],DataSourceInfo.DisplayName,"{Attachments}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue11.Attachments
-            Width: =266
-            X: =2
-            Y: =1
-            ZIndex: =10
-
-            DataCardKey11 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue11 As attachments:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DisplayMode: =Parent.DisplayMode
-                IsInDataCard: =true
-                Items: =Parent.Default
-                PaddingBottom: =5
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PaddingRight: =5
-                PaddingTop: =5
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey11.Y + DataCardKey11.Height + 5
-                ZIndex: =2
-
-            ErrorMessage6 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue11.Y + DataCardValue11.Height
-                ZIndex: =3
-
-            StarVisible6 As label:
-                Align: =Align.Center
-                Height: =DataCardKey11.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey11.Y
                 ZIndex: =4
 
     IconAccept1 As icon.Check:

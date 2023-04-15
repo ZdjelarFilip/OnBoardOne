@@ -15,8 +15,9 @@ PrijavaNaDogodekScreen_test As screen:
             Align: =Align.Center
             BorderColor: =RGBA(186, 202, 226, 1)
             Color: =RGBA(255, 255, 255, 1)
-            Size: =16
-            Text: ="OnBoardOne"
+            Size: =20
+            Text: ="PRIJAVA NA DOGODEK"
+            Width: =500
             ZIndex: =1
 
     Container5_4 As groupContainer.horizontalAutoLayoutContainer:
@@ -35,7 +36,7 @@ PrijavaNaDogodekScreen_test As screen:
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
         Text: ="Aktualni Dogodki"
         Width: =153
-        Y: =239
+        Y: =270
         ZIndex: =5
 
     PretekliDogodkiButton_4 As button:
@@ -45,7 +46,7 @@ PrijavaNaDogodekScreen_test As screen:
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =494
+        Y: =438
         ZIndex: =6
 
     PrijavaNaDogodekForm_1 As form:
@@ -360,4 +361,15 @@ PrijavaNaDogodekScreen_test As screen:
         X: =558
         Y: =281
         ZIndex: =10
+
+    Icon8 As icon.Home:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(WelcomeScreen,ScreenTransition.Fade)
+        X: =16
+        Y: =8
+        ZIndex: =11
 

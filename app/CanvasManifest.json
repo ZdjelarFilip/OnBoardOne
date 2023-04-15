@@ -121,6 +121,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "WelcomeScreen",
     "LecturersScreen",
     "AktualniDogodkiScreen",
     "PretekliDogodkiScreen",
@@ -129,7 +130,6 @@
     "AktualniDogodki_Details",
     "Organiziraj_screen",
     "Lecturers_edit",
-    "AktualniDogodki_Edit",
-    "WelcomeScreen"
+    "AktualniDogodki_Edit"
   ]
 }

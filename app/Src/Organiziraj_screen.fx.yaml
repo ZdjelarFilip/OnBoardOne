@@ -11,6 +11,16 @@ Organiziraj_screen As screen:
         Width: =1365
         ZIndex: =1
 
+        Label11 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =16
+            Text: ="Dodaj dogodek na izbran dan"
+            Width: =500
+            ZIndex: =1
+
     Container5_10 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
         Height: =688
@@ -20,7 +30,7 @@ Organiziraj_screen As screen:
         ZIndex: =2
 
     AktualniDogodkiButton_10 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
@@ -30,7 +40,7 @@ Organiziraj_screen As screen:
         ZIndex: =4
 
     PretekliDogodkiButton_10 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
@@ -41,6 +51,7 @@ Organiziraj_screen As screen:
 
     IconDelete1_2 As icon.Trash:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =
         Height: =88
         Icon: =Icon.Trash
@@ -53,8 +64,7 @@ Organiziraj_screen As screen:
         TabIndex: =0
         Tooltip: ="Delete this item"
         Width: =88
-        X: =1156
-        Y: =131
+        X: =1089
         ZIndex: =7
 
     DatePicker_submit As datepicker:
@@ -83,6 +93,7 @@ Organiziraj_screen As screen:
 
     IconEdit1_3 As icon.Edit:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =
         Height: =82
         Icon: =Icon.Add
@@ -94,8 +105,7 @@ Organiziraj_screen As screen:
         TabIndex: =0
         Tooltip: ="Edit this item"
         Width: =88
-        X: =1068
-        Y: =130
+        X: =1273
         ZIndex: =12
 
     Radio1 As radio:
@@ -394,4 +404,15 @@ Organiziraj_screen As screen:
                 Wrap: =false
                 Y: =DataCardKey22.Y
                 ZIndex: =4
+
+    Icon10 As icon.Home:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(WelcomeScreen,ScreenTransition.Fade)
+        X: =12
+        Y: =8
+        ZIndex: =17
 

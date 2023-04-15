@@ -116,3 +116,14 @@ PretekliDogodkiScreen As screen:
         Y: =335
         ZIndex: =5
 
+    Icon6 As icon.BackArrow:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(AktualniDogodkiScreen, ScreenTransition.Fade)
+        X: =13
+        Y: =8
+        ZIndex: =6
+

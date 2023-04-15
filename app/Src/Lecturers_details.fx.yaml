@@ -81,7 +81,7 @@ Lecturers_details As screen:
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
-                X: =20
+                X: =23
                 Y: =10 + (DataCardValue1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
