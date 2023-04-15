@@ -2,42 +2,78 @@ LecturersScreen As screen:
     Fill: =RGBA(232, 232, 232, 1)
 
     "Gallery_lecturers As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Height: =524
+        BorderColor: =RGBA(217, 85, 85, 1)
+        Height: =571
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Lecturers_details,ScreenTransition.Fade)
         ShowNavigation: =true
+        ShowScrollbar: =false
         TemplatePadding: =0
-        TemplateSize: =Min(128, Self.Height - 60)
-        Width: =1102
-        X: =188
-        Y: =185
+        TemplateSize: =Min(168, Self.Height - 60)
+        Width: =1199
+        X: =167
+        Y: =139
         ZIndex: =1
 
-        Image1 As image:
-            Height: =96
-            OnSelect: =Select(Parent)
-            Width: =96
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Title1 As label:
-            Height: =Self.Size * 1.8
+        Title4 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =20
             Text: =ThisItem.Owner
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image1.Width - 104
-            X: =Image1.X + Image1.Width + 24
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            Width: =140
+            X: =35
+            Y: =69
+            ZIndex: =1
+
+        Subtitle4 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =28
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.Department
+            VerticalAlign: =VerticalAlign.Top
+            Width: =138
+            X: =273
+            Y: =71
             ZIndex: =2
 
-        NextArrow1 As icon.ChevronRight:
+        Body3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =28
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =16
+            Text: =ThisItem.Location
+            VerticalAlign: =VerticalAlign.Top
+            Width: =183
+            X: =413
+            Y: =71
+            ZIndex: =3
+
+        NextArrow4 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(0, 89, 178, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent)
@@ -50,14 +86,16 @@ LecturersScreen As screen:
             Width: =60
             X: =Parent.TemplateWidth - Self.Width - 5
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
+            ZIndex: =4
 
-        Separator1 As rectangle:
+        Separator4 As rectangle:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Fill: =RGBA(0, 89, 178, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
-            ZIndex: =4
+            ZIndex: =5
 
     Container1_5 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(217, 85, 85, 1)
@@ -81,7 +119,7 @@ LecturersScreen As screen:
 
     Container5_5 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(232, 232, 232, 1)
         Height: =688
         LayoutMode: =LayoutMode.Auto
         Width: =153
@@ -89,32 +127,32 @@ LecturersScreen As screen:
         ZIndex: =3
 
     PrijavaNaDogodekButton_5 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
         Text: ="Prijava na dogodek"
         Width: =153
-        Y: =294
+        Y: =488
         ZIndex: =4
 
     AktualniDogodkiButton_5 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
         Text: ="Aktulani Dogodki"
         Width: =153
-        Y: =124
+        Y: =306
         ZIndex: =5
 
     PretekliDogodkiButton_5 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =209
+        Y: =393
         ZIndex: =6
 

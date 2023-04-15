@@ -632,8 +632,7 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex",
-        "BorderThickness"
+        "ZIndex"
       ],
       "GalleryTemplateChildName": "galleryTemplate2_2",
       "HasDynamicProperties": false,
@@ -657,11 +656,6 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "BorderThickness",
           "RuleProviderType": "Unknown"
         },
         {
