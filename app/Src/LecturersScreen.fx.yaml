@@ -6,8 +6,8 @@ LecturersScreen As screen:
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        X: =405
-        Y: =80
+        X: =333
+        Y: =116
         ZIndex: =1
 
         Image2_5 As image:
@@ -83,13 +83,11 @@ LecturersScreen As screen:
             Align: =Align.Center
             BorderColor: =RGBA(186, 202, 226, 1)
             Color: =RGBA(255, 255, 255, 1)
-            Size: =16
+            FontWeight: =FontWeight.Semibold
+            Size: =20
             Text: ="OnBoardOne"
+            Width: =300
             ZIndex: =1
-
-        Label2_1 As label:
-            Text: ="LECTURERS PAGE"
-            ZIndex: =2
 
     Container5_5 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
@@ -135,4 +133,10 @@ LecturersScreen As screen:
         Width: =153
         Y: =639
         ZIndex: =7
+
+    Button1 As button:
+        Text: ="Button"
+        X: =675
+        Y: =728
+        ZIndex: =8
 

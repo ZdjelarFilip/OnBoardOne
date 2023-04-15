@@ -55,6 +55,20 @@
     "dependents": [],
     "id": "377d6d9e-2d35-473d-9dae-50ef1a0d2e46"
   },
+  "4e45a229-b697-4376-85b8-78be8c55818f": {
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4e45a229-b697-4376-85b8-78be8c55818f"
+  },
   "fc596c8e-a367-458b-a9fa-b78c84164629": {
     "connectionRef": {
       "displayName": "SharePoint",
