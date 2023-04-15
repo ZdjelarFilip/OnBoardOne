@@ -1,130 +1,26 @@
 {
-  "ComponentIndexes": {
-    "Component1": 2
-  },
+  "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Component1": 3,
-    "GalleryNavigation": 15,
-    "galleryTemplate1": 16,
-    "GroupBackground": 24,
-    "GroupNavigation": 20,
-    "HtmlText1": 12,
-    "Icon2": 5,
-    "iconHamburgerMenu_6": 14,
-    "Image1": 17,
-    "ImagePowerAppsLogo": 23,
-    "Label4": 18,
-    "Rectangle1_1": 19,
-    "Rectangle2_5": 13,
-    "Screen1": 4,
-    "Screen2": 6,
-    "WelcomeScreenTitle": 22,
-    "WelcomeScreenTitleBackground": 21
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/15/2023 09:42:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {
-    "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 0
-  },
-  "OrderComponentTemplate": {
-    "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 0
-  },
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
-  "OrderGroupControls": {
-    "GroupBackground": {
-      "ImagePowerAppsLogo": 2,
-      "WelcomeScreenTitle": 1,
-      "WelcomeScreenTitleBackground": 0
-    },
-    "GroupNavigation": {
-      "GalleryNavigation": 2,
-      "iconHamburgerMenu_6": 1,
-      "Rectangle2_5": 0
-    }
-  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "gallery": 4,
-    "htmlViewer": 5,
-    "icon": 0,
-    "image": 2,
-    "label": 3,
-    "rectangle": 1
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Component1": {},
-    "GalleryNavigation": {},
-    "galleryTemplate1": {},
-    "GroupBackground": {},
-    "GroupNavigation": {},
-    "HtmlText1": {},
-    "Icon2": {},
-    "iconHamburgerMenu_6": {},
-    "Image1": {},
-    "ImagePowerAppsLogo": {},
-    "Label4": {},
-    "Rectangle1_1": {},
-    "Rectangle2_5": {},
-    "Screen1": {},
-    "Screen2": {},
-    "WelcomeScreenTitle": {},
-    "WelcomeScreenTitleBackground": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Component1": 1,
-    "GalleryNavigation": 7,
-    "galleryTemplate1": 8,
-    "GroupBackground": 2,
-    "GroupNavigation": 5,
-    "HtmlText1": 9,
-    "Icon2": 0,
-    "iconHamburgerMenu_6": 6,
-    "Image1": 9,
-    "ImagePowerAppsLogo": 3,
-    "Label4": 10,
-    "Rectangle1_1": 11,
-    "Rectangle2_5": 5,
-    "Screen1": 3,
-    "Screen2": 5,
-    "WelcomeScreenTitle": 4,
-    "WelcomeScreenTitleBackground": 1
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0167577,
-    "ControlCount": {
-      "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 1,
-      "gallery": 2,
-      "galleryTemplate": 2,
-      "group": 3,
-      "htmlViewer": 1,
-      "icon": 3,
-      "image": 3,
-      "label": 3,
-      "rectangle": 4,
-      "screen": 2
-    },
-    "DeserializationLoadTime": 0.0545874,
-    "ErrorCount": 22
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }

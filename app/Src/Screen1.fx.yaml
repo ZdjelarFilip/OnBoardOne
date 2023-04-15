@@ -1,7 +1,2 @@
 Screen1 As screen:
 
-    Icon2 As icon.Hamburger:
-        Icon: =Icon.Hamburger
-        X: =8
-        ZIndex: =2
-
