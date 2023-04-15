@@ -125,7 +125,7 @@ Organiziraj_screen As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(153, 205, 255, 1)
-        Items: =Events_1
+        Items: =Filter(Lecture_dates, datetime <= Date(Year(DatePicker_submit.SelectedDate), Month(DatePicker_submit.SelectedDate), Day(DatePicker_submit.SelectedDate)), datetime >= Date(Year(DatePicker_submit.SelectedDate), Month(DatePicker_submit.SelectedDate), Day(DatePicker_submit.SelectedDate)))
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 89, 178, 1)
         SelectionFill: =RGBA(0, 51, 102, 1)
@@ -313,7 +313,7 @@ Organiziraj_screen As screen:
             DataField: ="lecture_id"
             Default: =ThisItem.lecture_id
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =Dropdown_event_org.SelectedText
+            DisplayName: =1
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Lecture_dates], DataSourceInfo.MaxLength, "lecture_id")
@@ -341,7 +341,7 @@ Organiziraj_screen As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
-                Default: =Dropdown_event_org.AccessibleLabel
+                Default: =1
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
