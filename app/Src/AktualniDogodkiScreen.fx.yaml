@@ -86,6 +86,10 @@ AktualniDogodkiScreen As screen:
             Text: ="OnBoardOne"
             ZIndex: =1
 
+        Label2 As label:
+            Text: ="AKTUALNI DOGODKI"
+            ZIndex: =2
+
     Container5_1 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
         Fill: =RGBA(217, 85, 85, 1)
