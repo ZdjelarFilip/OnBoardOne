@@ -1,6 +1,8 @@
 PretekliDogodkiScreen As screen:
+    Fill: =RGBA(232, 232, 232, 1)
 
     "Gallery1_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(0, 89, 178, 1)
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
@@ -10,6 +12,7 @@ PretekliDogodkiScreen As screen:
         ZIndex: =1
 
         Image2_2 As image:
+            BorderColor: =RGBA(0, 89, 178, 1)
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -47,6 +50,8 @@ PretekliDogodkiScreen As screen:
 
         NextArrow1_2 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(0, 89, 178, 1)
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent)
@@ -62,6 +67,8 @@ PretekliDogodkiScreen As screen:
             ZIndex: =4
 
         Separator1_2 As rectangle:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Fill: =RGBA(0, 89, 178, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
@@ -98,6 +105,7 @@ PretekliDogodkiScreen As screen:
     PrijavaNaDogodekButton_2 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
         Text: ="Prijava na dogodek"
         Width: =153
@@ -107,6 +115,7 @@ PretekliDogodkiScreen As screen:
     AktualniDogodkiButton_2 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
         Text: ="Aktulani Dogodki"
         Width: =153
@@ -116,6 +125,7 @@ PretekliDogodkiScreen As screen:
     PretekliDogodkiButton_2 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153

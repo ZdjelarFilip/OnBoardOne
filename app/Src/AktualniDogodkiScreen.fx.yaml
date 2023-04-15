@@ -1,4 +1,5 @@
 AktualniDogodkiScreen As screen:
+    Fill: =RGBA(232, 232, 232, 1)
 
     Container1_1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(217, 85, 85, 1)
@@ -19,6 +20,7 @@ AktualniDogodkiScreen As screen:
             ZIndex: =1
 
         Label2 As label:
+            BorderColor: =RGBA(0, 89, 178, 1)
             Text: ="AKTUALNI DOGODKI"
             ZIndex: =2
 
@@ -26,37 +28,49 @@ AktualniDogodkiScreen As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =688
+        LayoutAlignItems: =LayoutAlignItems.End
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =153
         Y: =80
         ZIndex: =3
 
-    PrijavaNaDogodekButton_1 As button:
-        Fill: =RGBA(128, 128, 128, 1)
-        Height: =61
-        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
-        Text: ="Prijava na dogodek"
-        Width: =153
-        Y: =294
-        ZIndex: =4
+        AktualniDogodkiButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+            Text: ="Aktulani Dogodki"
+            Width: =153
+            Y: =124
+            ZIndex: =1
 
-    AktualniDogodkiButton_1 As button:
-        Fill: =RGBA(128, 128, 128, 1)
-        Height: =61
-        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
-        Width: =153
-        Y: =124
-        ZIndex: =5
+        PrijavaNaDogodekButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
+            Text: ="Prijava na dogodek"
+            Width: =153
+            Y: =294
+            ZIndex: =2
 
-    PretekliDogodkiButton_1 As button:
-        Fill: =RGBA(128, 128, 128, 1)
-        Height: =61
-        OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Pretekli Dogodki"
-        Width: =153
-        Y: =209
-        ZIndex: =6
+        PretekliDogodkiButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
+            Text: ="Pretekli Dogodki"
+            Width: =153
+            Y: =209
+            ZIndex: =3
+
+        UrejanjePodatkovButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(UrejanjePodatkovScreen,ScreenTransition.Fade)
+            Text: ="Urejanje podatkov"
+            Width: =153
+            Y: =639
+            ZIndex: =4
 
     "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Height: =645
