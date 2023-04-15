@@ -10,12 +10,16 @@
         "dataSources": {
           "Documents": {
             "tableName": "86ec8239-2007-46f4-87bd-bd0c221003fe"
+          },
+          "Lecturers": {
+            "tableName": "cdcbf57a-bba1-4029-bede-0ccb10189dfe"
           }
         }
       }
     },
     "dataSources": [
-      "Documents"
+      "Documents",
+      "Lecturers"
     ],
     "dependencies": {},
     "dependents": [],
