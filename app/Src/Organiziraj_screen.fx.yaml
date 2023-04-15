@@ -34,9 +34,9 @@ Organiziraj_screen As screen:
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
+        Text: ="Aktualni Dogodki"
         Width: =153
-        Y: =309
+        Y: =273
         ZIndex: =4
 
     PretekliDogodkiButton_10 As button:
@@ -46,7 +46,7 @@ Organiziraj_screen As screen:
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =393
+        Y: =421
         ZIndex: =5
 
     IconDelete1_2 As icon.Trash:

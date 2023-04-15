@@ -572,7 +572,7 @@
       "StyleName": "defaultButtonStyle",
       "Type": "ControlInfo"
     },
-    "Button1_3": {
+    "Button1_4": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -655,7 +655,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "false",
+          "AutoRuleBindingString": "Navigate(AktualniDogodkiScreen, ScreenTransition.Fade)",
           "InvariantPropertyName": "OnSelect",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -670,7 +670,7 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Button1_3",
+      "Name": "Button1_4",
       "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
