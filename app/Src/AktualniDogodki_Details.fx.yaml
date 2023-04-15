@@ -11,6 +11,16 @@ AktualniDogodki_Details As screen:
         Width: =1365
         ZIndex: =1
 
+        Label10 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =20
+            Text: ="Detaljno Dogodki"
+            Width: =500
+            ZIndex: =1
+
     Container5_8 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
         Height: =688
@@ -26,7 +36,7 @@ AktualniDogodki_Details As screen:
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
         Text: ="Aktualni Dogodki"
         Width: =153
-        Y: =243
+        Y: =274
         ZIndex: =4
 
     PretekliDogodkiButton_8 As button:
@@ -36,7 +46,7 @@ AktualniDogodki_Details As screen:
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =487
+        Y: =445
         ZIndex: =5
 
     IconDelete1_1 As icon.Trash:
@@ -131,52 +141,6 @@ AktualniDogodki_Details As screen:
                 Y: =10
                 ZIndex: =2
 
-        Name_DataCard1 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(0, 89, 178, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Name}"
-            Default: =ThisItem.Ime
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"{Name}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =1073
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey17 As label:
-                AutoHeight: =true
-                Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =34
-                Size: =20
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
-                Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue17.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            DataCardValue17 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =16
-                Text: =Parent.Default
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey17.X + DataCardKey17.Width
-                Y: =10
-                ZIndex: =2
-
         Event_DataCard1 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(0, 89, 178, 1)
             BorderStyle: =BorderStyle.Solid
@@ -189,7 +153,7 @@ AktualniDogodki_Details As screen:
             Required: =false
             Width: =1073
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =1
 
             DataCardKey14 As label:
@@ -235,7 +199,7 @@ AktualniDogodki_Details As screen:
             Required: =false
             Width: =1073
             X: =0
-            Y: =3
+            Y: =2
             ZIndex: =1
 
             DataCardKey15 As label:
@@ -281,7 +245,7 @@ AktualniDogodki_Details As screen:
             Required: =false
             Width: =1073
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =1
 
             DataCardKey18 As label:
@@ -327,7 +291,7 @@ AktualniDogodki_Details As screen:
             Required: =false
             Width: =1073
             X: =0
-            Y: =5
+            Y: =4
             ZIndex: =1
 
             DataCardKey19 As label:
@@ -373,7 +337,7 @@ AktualniDogodki_Details As screen:
             Required: =false
             Width: =1073
             X: =0
-            Y: =6
+            Y: =5
             ZIndex: =1
 
             DataCardKey13 As label:
@@ -419,7 +383,7 @@ AktualniDogodki_Details As screen:
             Required: =false
             Width: =1073
             X: =0
-            Y: =7
+            Y: =6
             ZIndex: =1
 
             DataCardKey12 As label:
@@ -432,8 +396,7 @@ AktualniDogodki_Details As screen:
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue12.Height / 2) - (Self.Height / 2)
+                X: =28
                 ZIndex: =1
 
             DataCardValue12 As label:
@@ -460,7 +423,7 @@ AktualniDogodki_Details As screen:
         OnSelect: =Navigate(Organiziraj_screen)
         Text: ="Organiziraj Dogodek"
         Width: =224
-        X: =171
+        X: =253
         Y: =638
         ZIndex: =10
 
@@ -471,7 +434,18 @@ AktualniDogodki_Details As screen:
         OnSelect: =EditForm(AktualniDogodkiEdit_Form);Navigate(PrijavaNaDogodekForm_1, ScreenTransition.None)
         Text: ="Prijavi se na Dogodek"
         Width: =248
-        X: =1002
+        X: =1049
         Y: =638
         ZIndex: =11
+
+    Icon3 As icon.BackArrow:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+        X: =12
+        Y: =8
+        ZIndex: =13
 

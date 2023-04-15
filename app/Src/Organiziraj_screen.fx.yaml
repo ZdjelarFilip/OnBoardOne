@@ -11,6 +11,16 @@ Organiziraj_screen As screen:
         Width: =1365
         ZIndex: =1
 
+        Label11 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Size: =16
+            Text: ="Dodaj dogodek na izbran dan"
+            Width: =500
+            ZIndex: =1
+
     Container5_10 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
         Height: =688
@@ -20,27 +30,28 @@ Organiziraj_screen As screen:
         ZIndex: =2
 
     AktualniDogodkiButton_10 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
+        Text: ="Aktualni Dogodki"
         Width: =153
-        Y: =309
+        Y: =273
         ZIndex: =4
 
     PretekliDogodkiButton_10 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =393
+        Y: =421
         ZIndex: =5
 
     IconDelete1_2 As icon.Trash:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =
         Height: =88
         Icon: =Icon.Trash
@@ -83,6 +94,7 @@ Organiziraj_screen As screen:
 
     IconEdit1_3 As icon.Edit:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =
         Height: =82
         Icon: =Icon.Add
@@ -404,6 +416,17 @@ Organiziraj_screen As screen:
         Width: =339
         X: =405
         Y: =309
+        ZIndex: =17
+
+    Icon10 As icon.Home:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(WelcomeScreen,ScreenTransition.Fade)
+        X: =12
+        Y: =8
         ZIndex: =17
 
     Label1_3 As label:

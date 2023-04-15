@@ -41,7 +41,7 @@ AktualniDogodkiScreen As screen:
             Text: =ThisItem.Event_SLO
             VerticalAlign: =VerticalAlign.Top
             Width: =212
-            X: =378
+            X: =442
             Y: =54
             ZIndex: =2
 
@@ -160,7 +160,7 @@ AktualniDogodkiScreen As screen:
         FontWeight: =FontWeight.Bold
         Size: =18
         Text: ="DOGODEK"
-        X: =607
+        X: =660
         Y: =118
         ZIndex: =6
 
@@ -174,4 +174,15 @@ AktualniDogodkiScreen As screen:
         X: =1104
         Y: =118
         ZIndex: =7
+
+    Icon4 As icon.Home:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(WelcomeScreen, ScreenTransition.Fade)
+        X: =15
+        Y: =8
+        ZIndex: =8
 

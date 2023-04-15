@@ -1369,19 +1369,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1"
+                "type": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1"
               }
             }
           ],
@@ -1429,19 +1429,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1"
+                "type": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1"
               }
             }
           ],
@@ -1459,49 +1459,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue22.AccessibleLabel"
+                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue22.AccessibleLabel",
+                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Organiziraj_screen.Dropdown_event_org_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Dropdown_event_org_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Dropdown_event_org_1"
+                "type": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue21"
               }
             }
           ],

@@ -17,8 +17,8 @@ AktualniDogodki_Edit As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Size: =20
-            Text: ="OnBoardOne"
-            Width: =300
+            Text: ="Urejanje Aktualnih Dogodkov"
+            Width: =500
             ZIndex: =1
 
     Container5_9 As groupContainer.horizontalAutoLayoutContainer:
@@ -79,7 +79,6 @@ AktualniDogodki_Edit As screen:
         TabIndex: =0
         Tooltip: ="Cancel item"
         Width: =88
-        X: =1
         ZIndex: =11
 
     AktualniDogodkiEdit_Form As form:

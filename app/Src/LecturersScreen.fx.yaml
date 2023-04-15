@@ -106,7 +106,7 @@ LecturersScreen As screen:
             Size: =20
             Text: ="Nosilci Predavanj"
             Width: =300
-            ZIndex: =1
+            ZIndex: =2
 
     Container5_5 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
@@ -188,4 +188,15 @@ LecturersScreen As screen:
         X: =858
         Y: =142
         ZIndex: =10
+
+    Icon2 As icon.Home:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Home
+        OnSelect: =Navigate(WelcomeScreen, ScreenTransition.None)
+        X: =13
+        Y: =8
+        ZIndex: =11
 
