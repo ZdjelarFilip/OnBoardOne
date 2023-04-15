@@ -17,7 +17,7 @@ Organiziraj_screen As screen:
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Size: =16
-            Text: ="Dodaj dogodek na izbran dan"
+            Text: ="Organiziraj Dogodek"
             Width: =500
             ZIndex: =1
 
