@@ -400,7 +400,7 @@ Lecturers_edit As screen:
         Attachments_DataCard1 As typedDataCard.attachmentsEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Attachments}"
-            Default: =ThisItem.Attachments
+            Default: =ThisItem.Priloge
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@Lecturers_1],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)

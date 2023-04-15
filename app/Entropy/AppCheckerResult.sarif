@@ -14,41 +14,110 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DisplayName"
+                  "fullyQualifiedName": "Organiziraj_screen.Radio1.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DisplayName",
+                  "fullyQualifiedName": "Organiziraj_screen.Radio1.Items",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 13,
-                  "charOffset": 18,
+                  "charLength": 14,
+                  "charOffset": 21,
                   "snippet": {
-                    "text": ".SelectedText"
+                    "text": "Text(datetime)"
                   }
                 }
               },
               "properties": {
-                "member": "DisplayName",
+                "member": "Items",
                 "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.lecture_id_DataCard1"
+                "type": "Organiziraj_screen.Radio1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Text",
-              "Record"
+              "Filter"
             ],
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleId": "app-SuggestRemoteExecutionHint",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Organiziraj_screen.Radio1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Organiziraj_screen.Radio1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 36,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Organiziraj_screen",
+                "type": "Organiziraj_screen.Radio1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Organiziraj_screen.DatePicker_submit.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Organiziraj_screen.DatePicker_submit.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Organiziraj_screen",
+                "type": "Organiziraj_screen.DatePicker_submit"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -109,126 +178,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Title_DataCard1.DataCardValue47.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Title_DataCard1.DataCardValue47.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Title_DataCard1.DataCardValue47"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.Dropdown1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -625,6 +574,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "AktualniDogodki_Edit.AktualniDogodkiEdit_Form.Attachments_DataCard2.DataCardValue34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AktualniDogodki_Edit.AktualniDogodkiEdit_Form.Attachments_DataCard2.DataCardValue34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "AktualniDogodki_Edit",
+                "type": "AktualniDogodki_Edit.AktualniDogodkiEdit_Form.Attachments_DataCard2.DataCardValue34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AktualniDogodki_Edit.AktualniDogodkiEdit_Form.Attachments_DataCard2.DataCardValue34.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "AktualniDogodki_Edit.AktualniDogodkiEdit_Form.Attachments_DataCard2.DataCardValue34.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "AktualniDogodki_Edit",
+                "type": "AktualniDogodki_Edit.AktualniDogodkiEdit_Form.Attachments_DataCard2.DataCardValue34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "LecturersScreen.Gallery_lecturers.AccessibleLabel"
                 }
               ],
@@ -679,6 +688,126 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Title_DataCard1.DataCardValue47.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Title_DataCard1.DataCardValue47.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Title_DataCard1.DataCardValue47"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -895,66 +1024,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Organiziraj_screen.DatePicker_submit.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.DatePicker_submit.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.DatePicker_submit"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Organiziraj_screen.Dropdown_event_org.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Dropdown_event_org.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Dropdown_event_org"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Organiziraj_screen.Radio1.AccessibleLabel"
                 }
               ],
@@ -979,216 +1048,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.datetime_DataCard1.DateValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.HourValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.HourValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.datetime_DataCard1.HourValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.datetime_DataCard1.MinuteValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue21.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue21.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Organiziraj_screen",
-                "type": "Organiziraj_screen.Form1.lecture_id_DataCard1.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.Items"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.Items",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Items",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.Dropdown1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1285,6 +1144,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.Items",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.Dropdown1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.Event_DataCard4.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "PrijavaNaDogodekScreen_test",
+                "type": "PrijavaNaDogodekScreen_test.PrijavaNaDogodekForm_1.__PowerAppsId___DataCard4.DataCardValue49"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Lecturers_edit.lecturers_edit_form.Item"
                 }
               ],
@@ -1317,18 +1266,20 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+              "id": "app-SuggestRemoteExecutionHint",
               "messageStrings": {
                 "issue": {
-                  "text": "Expected {0} value."
+                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Change the rule to produce a {0} value."
+                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
+                  "Try simplifying the formula.",
+                  "Try moving your data to a different data source."
                 ],
-                "level": "High",
+                "level": "Medium",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }

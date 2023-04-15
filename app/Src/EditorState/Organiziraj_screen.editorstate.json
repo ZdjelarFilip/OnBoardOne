@@ -477,7 +477,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container5_10",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3541,7 +3541,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconDelete1_2",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3697,7 +3697,14 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "DisplayMode",
-        "OnSelect",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -3757,7 +3764,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconEdit1_3",
-      "ParentIndex": 2,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5044,12 +5051,12 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Radio1",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Value\":\"lecture_id\"}",
+          "NameMap": "{\"Value\":\"ComplianceAssetId\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },
