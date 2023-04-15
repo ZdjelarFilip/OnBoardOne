@@ -23,7 +23,6 @@ AktualniDogodki_Edit As screen:
 
     Container5_9 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
-        Fill: =RGBA(255, 255, 255, 1)
         Height: =688
         LayoutMode: =LayoutMode.Auto
         Width: =153
@@ -31,27 +30,29 @@ AktualniDogodki_Edit As screen:
         ZIndex: =2
 
     AktualniDogodkiButton_9 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
+        Text: ="Aktualni Dogodki"
         Width: =153
-        Y: =124
+        Y: =265
         ZIndex: =4
 
     PretekliDogodkiButton_9 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =209
+        X: =1
+        Y: =511
         ZIndex: =5
 
     IconAccept1_1 As icon.Check:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Check
         OnSelect: =SubmitForm(AktualniDogodkiEdit_Form); Navigate(AktualniDogodki_Details,ScreenTransition.Fade)
@@ -67,6 +68,7 @@ AktualniDogodki_Edit As screen:
 
     IconCancel1_1 As icon.Cancel:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Cancel
         OnSelect: =ResetForm(AktualniDogodkiEdit_Form);Back()
@@ -175,6 +177,7 @@ AktualniDogodki_Edit As screen:
             MaxLength: =DataSourceInfo([@Events_1], DataSourceInfo.MaxLength, "field_1")
             Required: =false
             Update: =DataCardValue24.Text
+            Visible: =true
             Width: =395
             X: =1
             Y: =0
@@ -890,77 +893,5 @@ AktualniDogodki_Edit As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey33.Y
-                ZIndex: =4
-
-        Attachments_DataCard2 As typedDataCard.attachmentsEditCard:
-            BorderColor: =RGBA(0, 89, 178, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Attachments}"
-            Default: =ThisItem.Attachments
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"{Attachments}")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue34.Attachments
-            Width: =395
-            X: =2
-            Y: =3
-            ZIndex: =13
-
-            DataCardKey34 As label:
-                AutoHeight: =true
-                Color: =RGBA(0, 89, 178, 1)
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue34 As attachments:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DisplayMode: =Parent.DisplayMode
-                HoverFill: =RGBA(153, 205, 255, 1)
-                IsInDataCard: =true
-                ItemFill: =RGBA(0, 51, 102, 1)
-                ItemHoverFill: =RGBA(153, 205, 255, 1)
-                Items: =Parent.Default
-                PaddingBottom: =5
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PaddingRight: =5
-                PaddingTop: =5
-                PressedFill: =RGBA(0, 89, 178, 1)
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey34.Y + DataCardKey34.Height + 5
-                ZIndex: =2
-
-            ErrorMessage18 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue34.Y + DataCardValue34.Height
-                ZIndex: =3
-
-            StarVisible18 As label:
-                Align: =Align.Center
-                Color: =RGBA(0, 89, 178, 1)
-                Height: =DataCardKey34.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey34.Y
                 ZIndex: =4
 

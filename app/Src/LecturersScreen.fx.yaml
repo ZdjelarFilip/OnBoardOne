@@ -11,9 +11,9 @@ LecturersScreen As screen:
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
-        Width: =1199
-        X: =167
-        Y: =139
+        Width: =1182
+        X: =183
+        Y: =177
         ZIndex: =1
 
         Title4 As label:
@@ -101,7 +101,7 @@ LecturersScreen As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Size: =20
-            Text: ="OnBoardOne"
+            Text: ="Predavanja"
             Width: =300
             ZIndex: =1
 
@@ -119,7 +119,7 @@ LecturersScreen As screen:
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
+        Text: ="Aktualni Dogodki"
         Width: =153
         Y: =306
         ZIndex: =5
@@ -131,11 +131,12 @@ LecturersScreen As screen:
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =393
+        Y: =463
         ZIndex: =6
 
     IconNewItem1 As icon.Add:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =If(DataSourceInfo([@Lecturers_1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Add
