@@ -144,3 +144,19 @@ AktualniDogodkiScreen As screen:
             Y: =209
             ZIndex: =3
 
+    IconNewItem1_1 As icon.Add:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =If(DataSourceInfo([@Lecturers_1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Height: =88
+        Icon: =Icon.Add
+        OnSelect: =NewForm(AktualniDogodkiEdit_Form);Navigate(AktualniDogodki_Edit, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Create new item"
+        Width: =88
+        X: =1277
+        ZIndex: =4
+
