@@ -15,7 +15,9 @@
       }
     },
     "dataSources": [
-      "Documents"
+      "Documents",
+      "Lecturers_1",
+      "Documents_1"
     ],
     "dependencies": {},
     "dependents": [],
