@@ -1,11 +1,2 @@
 Screen1 As screen:
 
-    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Documents
-        Layout: =Layout.Vertical
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        X: =256
-        Y: =88
-        ZIndex: =1
-
