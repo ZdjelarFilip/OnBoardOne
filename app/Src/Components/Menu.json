@@ -5,7 +5,7 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Component1",
+    "Name": "Menu",
     "TemplateGuid": "68f8f9fa1e5f42e4b1bdef304e2a5c9f"
   },
   "ComponentType": "CanvasComponent",
@@ -19,7 +19,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638171474237873661",
+  "LastModifiedTimestamp": "638171485211337621",
   "Name": "68f8f9fa1e5f42e4b1bdef304e2a5c9f",
   "OverridableProperties": {},
   "Version": "638171472386417367"

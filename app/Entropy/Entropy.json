@@ -1,18 +1,18 @@
 {
   "ComponentIndexes": {
-    "Component1": 2
+    "Menu": 2
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Component1": 3,
-    "Icon2": 5,
+    "Icon1": 7,
+    "Menu": 3,
     "Screen1": 4,
     "Screen2": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/15/2023 09:26:17",
+  "HeaderLastSavedDateTimeUTC": "04/15/2023 09:42:05",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -24,7 +24,9 @@
   "OrderComponentTemplate": {
     "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 0
   },
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
@@ -33,8 +35,8 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Component1": {},
-    "Icon2": {},
+    "Icon1": {},
+    "Menu": {},
     "Screen1": {},
     "Screen2": {}
   },
@@ -42,12 +44,14 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Component1": 1,
-    "Icon2": 4,
+    "Icon1": 0,
+    "Menu": 1,
     "Screen1": 3,
     "Screen2": 5
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
