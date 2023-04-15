@@ -884,36 +884,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "PrijavaNaDogodekScreen_test.Dropdown1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "PrijavaNaDogodekScreen_test",
-                "type": "PrijavaNaDogodekScreen_test.Dropdown1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "AktualniDogodki_Details.AktualniDogodki_Details_Form.Item"
                 }
               ],
