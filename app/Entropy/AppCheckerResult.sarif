@@ -54,32 +54,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Items"
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Items",
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 14,
-                  "charOffset": 0,
+                  "charLength": 4,
+                  "charOffset": 11,
                   "snippet": {
-                    "text": "NavigationMenu"
+                    "text": ".Row"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "TemplateFill",
                 "module": "Screen2",
-                "type": "Screen2.GalleryNavigation"
+                "type": "Screen2.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "NavigationMenu"
+              "Row"
             ],
             "id": "issue"
           },
@@ -88,6 +88,124 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 18,
+                  "snippet": {
+                    "text": "_selectedTutorial"
+                  }
+                }
+              },
+              "properties": {
+                "member": "TemplateFill",
+                "module": "Screen2",
+                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "_selectedTutorial"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": ".Row"
+                  }
+                }
+              },
+              "properties": {
+                "member": "TemplateFill",
+                "module": "Screen2",
+                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 16,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "TemplateFill",
+                "module": "Screen2",
+                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -128,7 +246,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrBadArity",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -165,7 +283,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -206,7 +324,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -325,242 +443,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 3,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 11,
-                  "snippet": {
-                    "text": ".Row"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 18,
-                  "snippet": {
-                    "text": "_selectedTutorial"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "_selectedTutorial"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 35,
-                  "snippet": {
-                    "text": ".Row"
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 16,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Error",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Image1.Image"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Image1.Image",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Image",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Image1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "ThisItem"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -591,45 +474,8 @@
             }
           ],
           "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Label4.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Label4.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Label4"
-              }
-            }
-          ],
-          "message": {
             "arguments": [
-              "ThisItem"
+              "Image"
             ],
             "id": "issue"
           },
@@ -668,45 +514,8 @@
             }
           ],
           "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "ThisItem"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Visible",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Rectangle1_1"
-              }
-            }
-          ],
-          "message": {
             "arguments": [
-              "ThisItem"
+              "Title"
             ],
             "id": "issue"
           },
@@ -745,13 +554,16 @@
             }
           ],
           "message": {
+            "arguments": [
+              "Row"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -828,7 +640,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -869,7 +681,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 3
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1043,20 +855,6 @@
               }
             },
             {
-              "id": "app-ErrBadArity",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid number of arguments: received {0}, expected {1}."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
               "id": "app-ErrInvalidDot",
               "messageStrings": {
                 "issue": {
@@ -1083,6 +881,20 @@
                   "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
                   "If you’re comparing records or tables, the field or column types must match exactly."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadArity",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid number of arguments: received {0}, expected {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
