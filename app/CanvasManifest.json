@@ -118,7 +118,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "sl-SI"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "Screen1"
