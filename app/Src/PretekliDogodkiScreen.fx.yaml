@@ -5,7 +5,7 @@ PretekliDogodkiScreen As screen:
         BorderColor: =RGBA(162, 162, 162, 1)
         BorderThickness: =3
         Height: =618
-        Items: =Lecturers_1
+        Items: =SortByColumns(Filter(Lecturers_1,'datetime'<Today()-7))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
@@ -93,7 +93,8 @@ PretekliDogodkiScreen As screen:
             BorderColor: =RGBA(186, 202, 226, 1)
             Color: =RGBA(255, 255, 255, 1)
             Size: =16
-            Text: ="OnBoardOne"
+            Text: ="PRETEKLI DOGODKI"
+            Width: =300
             ZIndex: =1
 
     Container5_2 As groupContainer.horizontalAutoLayoutContainer:
