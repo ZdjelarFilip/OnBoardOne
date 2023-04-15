@@ -29,19 +29,17 @@
       "Created": "Ustvarjeno",
       "Editor": "Spremenil",
       "Editor#Claims": "Spremenil Claims",
-      "field_1": "Department",
-      "field_2": "Location",
-      "field_3": "Email",
-      "field_4": "Gender",
+      "field_1": "MeetingRoom",
+      "field_2": "Capacity",
       "ID": "ID",
       "Modified": "Spremenjeno",
-      "Title": "Owner"
+      "Title": "City"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Lecturers_1",
+    "Name": "Locations",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
