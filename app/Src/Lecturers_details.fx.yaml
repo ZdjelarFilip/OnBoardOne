@@ -178,3 +178,20 @@ Lecturers_details As screen:
                 Y: =DataCardKey3.Y + DataCardKey3.Height + 5
                 ZIndex: =2
 
+    IconDelete1 As icon.Trash:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =
+        Height: =88
+        Icon: =Icon.Trash
+        OnSelect: |
+            =Remove([@Lecturers_1], Gallery_lecturers.Selected); If (IsEmpty(Errors([@Lecturers_1], Gallery_lecturers.Selected)), Back())
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Delete this item"
+        Width: =88
+        X: =1277
+        ZIndex: =7
+
