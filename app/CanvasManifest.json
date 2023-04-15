@@ -124,7 +124,6 @@
     "LecturersScreen",
     "AktualniDogodkiScreen",
     "PretekliDogodkiScreen",
-    "PrijavaNaDogodekScreen",
-    "UrejanjePodatkovScreen"
+    "PrijavaNaDogodekScreen"
   ]
 }
