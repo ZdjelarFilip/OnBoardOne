@@ -89,8 +89,8 @@ AktualniDogodki_Details As screen:
         Item: =Gallery_AktualniDogodki.Selected
         NumberOfColumns: =1
         Width: =1062
-        X: =204
-        Y: =200
+        X: =184
+        Y: =110
         ZIndex: =9
 
         Event_DataCard1 As typedDataCard.textualViewCard:
@@ -542,4 +542,36 @@ AktualniDogodki_Details As screen:
                 X: =30
                 Y: =DataCardKey22.Y + DataCardKey22.Height + 5
                 ZIndex: =2
+
+    Button3 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(0, 51, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =81
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        Size: =15
+        Text: ="Organiziraj Dogodek"
+        Width: =224
+        X: =171
+        Y: =638
+        ZIndex: =10
+
+    Button4 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(0, 51, 102, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =61
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        Size: =15
+        Text: ="Prijavi se na Dogodek"
+        Width: =244
+        X: =1000
+        Y: =638
+        ZIndex: =11
 
