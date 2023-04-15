@@ -47,6 +47,28 @@
     "dependents": [],
     "id": "4e45a229-b697-4376-85b8-78be8c55818f"
   },
+  "a15c2449-870e-42e0-81e4-001896ac4675": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://univerzamb.sharepoint.com/sites/OnBoardOne_1": {
+        "dataSources": {
+          "Lecture_dates": {
+            "tableName": "3ad9fb74-3818-402b-bfa4-64710807d310"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Lecture_dates"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a15c2449-870e-42e0-81e4-001896ac4675"
+  },
   "e9c6ad09-cdd1-4f9c-92df-2464a45898f3": {
     "connectionRef": {
       "displayName": "Office 365 Outlook",

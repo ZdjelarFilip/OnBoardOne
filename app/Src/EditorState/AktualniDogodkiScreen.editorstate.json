@@ -809,7 +809,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container5_1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -982,7 +982,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery_AktualniDogodki",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1219,7 +1219,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconNewItem1_1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
