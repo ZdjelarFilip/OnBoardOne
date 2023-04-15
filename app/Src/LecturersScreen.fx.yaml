@@ -57,7 +57,7 @@ LecturersScreen As screen:
             Text: =ThisItem.Location
             VerticalAlign: =VerticalAlign.Top
             Width: =189
-            X: =907
+            X: =681
             Y: =54
             ZIndex: =3
 
@@ -185,7 +185,7 @@ LecturersScreen As screen:
         FontWeight: =FontWeight.Bold
         Size: =20
         Text: ="LOKACIJA"
-        X: =1077
-        Y: =137
+        X: =858
+        Y: =142
         ZIndex: =10
 

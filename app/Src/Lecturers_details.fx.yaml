@@ -17,8 +17,8 @@ Lecturers_details As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Size: =20
-            Text: ="OnBoardOne"
-            Width: =300
+            Text: ="INFORMACIJE O PREDAVATELJU"
+            Width: =500
             ZIndex: =1
 
     Container5_6 As groupContainer.horizontalAutoLayoutContainer:
@@ -51,12 +51,12 @@ Lecturers_details As screen:
 
     FormViewer1 As formViewer:
         DataSource: =Lecturers_1
-        Height: =512
+        Height: =485
         Item: =Gallery_lecturers.Selected
         NumberOfColumns: =1
-        Width: =677
-        X: =388
-        Y: =156
+        Width: =1152
+        X: =180
+        Y: =180
         ZIndex: =6
 
         Owner_DataCard1 As typedDataCard.textualViewCard:
@@ -68,7 +68,7 @@ Lecturers_details As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =677
+            Width: =1152
             X: =0
             Y: =0
             ZIndex: =7
@@ -79,23 +79,25 @@ Lecturers_details As screen:
                 Height: =34
                 Size: =24
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =20
-                Y: =4
+                Y: =10 + (DataCardValue1.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue1 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =20
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =57
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey1.X + DataCardKey1.Width
+                Y: =10
                 ZIndex: =2
 
         Department_DataCard1 As typedDataCard.textualViewCard:
@@ -107,7 +109,7 @@ Lecturers_details As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =677
+            Width: =1152
             X: =0
             Y: =1
             ZIndex: =7
@@ -118,23 +120,25 @@ Lecturers_details As screen:
                 Height: =34
                 Size: =24
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue2.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue2 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =20
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =63
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey2.X + DataCardKey2.Width
+                Y: =10
                 ZIndex: =2
 
         Location_DataCard1 As typedDataCard.textualViewCard:
@@ -146,7 +150,7 @@ Lecturers_details As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =677
+            Width: =1152
             X: =0
             Y: =2
             ZIndex: =7
@@ -157,23 +161,25 @@ Lecturers_details As screen:
                 Height: =34
                 Size: =24
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue3.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue3 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =20
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =63
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey3.X + DataCardKey3.Width
+                Y: =10
                 ZIndex: =2
 
         Email_DataCard1 As typedDataCard.textualViewCard:
@@ -185,7 +191,7 @@ Lecturers_details As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =677
+            Width: =1152
             X: =0
             Y: =3
             ZIndex: =7
@@ -196,23 +202,25 @@ Lecturers_details As screen:
                 Height: =34
                 Size: =24
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue4.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue4 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =20
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =63
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey4.X + DataCardKey4.Width
+                Y: =10
                 ZIndex: =2
 
         Gender_DataCard1 As typedDataCard.textualViewCard:
@@ -224,7 +232,7 @@ Lecturers_details As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =89
             Required: =false
-            Width: =677
+            Width: =1152
             X: =0
             Y: =4
             ZIndex: =7
@@ -235,23 +243,25 @@ Lecturers_details As screen:
                 Height: =34
                 Size: =24
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue5.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue5 As label:
+                Align: =Align.Center
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =20
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =63
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey5.X + DataCardKey5.Width
+                Y: =10
                 ZIndex: =2
 
     IconDelete1 As icon.Trash:
