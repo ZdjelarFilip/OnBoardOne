@@ -3,30 +3,7 @@ Screen2 As screen:
     HtmlText1 As htmlViewer:
         Height: =613
         HoverBorderColor: =HtmlText1.BorderColor
-        HtmlText: |-
-            ="<div style='font-size: 14pt; font-weight: normal; color: #444444;'>
-            This tutorial is step-by-step guide for working with Microsoft Office 365 in Power Apps. It contains key building blocks and learning resources for creating custom line of business applications that leverage the power of Office 365 and the Microsoft Graph:</br>
-            
-            <ul style='list-style-type:disc'>
-              <li><b>People picker</b>: find and select people from your company directory with speed and ease.</li>
-              <li><b>Planner</b>: lets users assign tasks in Planner – with a description and due date.</li>
-              <li><b>Outlook</b>: a quick way to create and send an email – just enter an Address, Subject and your text.</li>
-              <li><b>OneNote</b>: a quick, easy way to enter notes into a specific OneNote notebook and section.</li>
-              <li><b>Pop-up lightbox</b>: presents users with helpful text when they click on an item in an app.</li>
-            </ul> 
-            <p>
-            <div style='font-size: 20pt; font-weight: normal; color: #444444;'>How to use this tutorial?</div>
-            </p><p>
-            Simply get started by editing the app. Then, leverage the app in one, or more, of the following ways: 
-            <ul style='list-style-type:disc'>
-            <li><b>Test</b>: Use the <i>Play</i> button (or press <i>F5</i>) to test each of the components' functionality in preview mode.</li> 
-            <li><b>Learn</b>: Review the already built components or follow the instructions on the right side panel on the screen to learn how to build them. Each side panel also lists additional learning resources on the <i>Resources</i> tab </li>
-            <li><b>Re-use</b>: <i>Copy</i> and <i>Paste</i> the components from this app into your own.</li>
-            </ul>
-            Enjoy the tutorial and have fun learning and exploring Power Apps!
-            </p>
-            
-            </div>"
+        HtmlText: =""
         PressedBorderColor: =HtmlText1.BorderColor
         Width: =1084
         X: =If(!IsExpand, 240, 90)
