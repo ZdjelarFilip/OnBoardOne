@@ -6,7 +6,7 @@ LecturersScreen As screen:
         Height: =524
         Items: =Lecturers_1
         Layout: =Layout.Vertical
-        OnSelect: =Navigate(LecturersScreen_1,ScreenTransition.Fade)
+        OnSelect: =Navigate(Lecturers_details,ScreenTransition.Fade)
         ShowNavigation: =true
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
