@@ -1,0 +1,84 @@
+Organiziraj_screen As screen:
+    Fill: =RGBA(232, 232, 232, 1)
+
+    Container1_10 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(217, 85, 85, 1)
+        Height: =80
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =1365
+        ZIndex: =1
+
+    Container5_10 As groupContainer.horizontalAutoLayoutContainer:
+        BorderColor: =RGBA(199, 48, 48, 1)
+        Height: =688
+        LayoutMode: =LayoutMode.Auto
+        Width: =153
+        Y: =80
+        ZIndex: =2
+
+    PrijavaNaDogodekButton_10 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
+        Text: ="Prijava na dogodek"
+        Width: =153
+        Y: =475
+        ZIndex: =3
+
+    AktualniDogodkiButton_10 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+        Text: ="Aktulani Dogodki"
+        Width: =153
+        Y: =309
+        ZIndex: =4
+
+    PretekliDogodkiButton_10 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
+        Text: ="Pretekli Dogodki"
+        Width: =153
+        Y: =393
+        ZIndex: =5
+
+    IconDelete1_2 As icon.Trash:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =
+        Height: =88
+        Icon: =Icon.Trash
+        OnSelect: |
+            =Remove([@Lecturers_1], Gallery_lecturers.Selected); If (IsEmpty(Errors([@Lecturers_1], Gallery_lecturers.Selected)), Back())
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Delete this item"
+        Width: =88
+        X: =1189
+        ZIndex: =7
+
+    IconEdit1_2 As icon.Edit:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =
+        Height: =88
+        Icon: =Icon.Edit
+        OnSelect: =EditForm(AktualniDogodkiEdit_Form);Navigate(AktualniDogodki_Edit, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Edit this item"
+        Width: =88
+        X: =1277
+        ZIndex: =8
+
