@@ -17,16 +17,12 @@ LecturersScreen As screen:
         ZIndex: =1
 
         Title4 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =20
             Text: =ThisItem.Owner
             VerticalAlign: =VerticalAlign.Top
             Width: =140
@@ -35,15 +31,12 @@ LecturersScreen As screen:
             ZIndex: =1
 
         Subtitle4 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =28
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =18
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
             Width: =138
@@ -52,15 +45,12 @@ LecturersScreen As screen:
             ZIndex: =2
 
         Body3 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =28
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =16
             Text: =ThisItem.Location
             VerticalAlign: =VerticalAlign.Top
             Width: =183
@@ -72,8 +62,6 @@ LecturersScreen As screen:
             AccessibleLabel: =Self.Tooltip
             BorderColor: =RGBA(0, 89, 178, 1)
             Color: =RGBA(0, 89, 178, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent)

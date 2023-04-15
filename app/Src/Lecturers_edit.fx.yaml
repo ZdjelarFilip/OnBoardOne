@@ -60,39 +60,6 @@ Lecturers_edit As screen:
         Y: =209
         ZIndex: =5
 
-    IconDelete1_1 As icon.Trash:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =
-        Height: =88
-        Icon: =Icon.Trash
-        OnSelect: |
-            =Remove([@Lecturers_1], Gallery_lecturers.Selected); If (IsEmpty(Errors([@Lecturers_1], Gallery_lecturers.Selected)), Back())
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Delete this item"
-        Width: =88
-        X: =1189
-        ZIndex: =7
-
-    IconEdit1_1 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =
-        Height: =88
-        Icon: =Icon.Edit
-        OnSelect: =EditForm();Navigate(EditScreen1, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Edit this item"
-        Width: =88
-        X: =1277
-        ZIndex: =8
-
     lecturers_edit_form As form:
         DataSource: =Lecturers_1
         Item: =Gallery_lecturers.Selected
@@ -504,4 +471,34 @@ Lecturers_edit As screen:
                 Wrap: =false
                 Y: =DataCardKey11.Y
                 ZIndex: =4
+
+    IconAccept1 As icon.Check:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Check
+        OnSelect: =SubmitForm(lecturers_edit_form)
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Submit item"
+        Width: =88
+        X: =Parent.Width - Self.Width
+        ZIndex: =10
+
+    IconCancel1 As icon.Cancel:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Cancel
+        OnSelect: =ResetForm(lecturers_edit_form);Back()
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Cancel item"
+        Width: =88
+        X: =1
+        ZIndex: =11
 
