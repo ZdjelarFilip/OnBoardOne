@@ -14,12 +14,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.ImagePowerAppsLogo.Image"
+                  "fullyQualifiedName": "LecturersPage.ImagePowerAppsLogo.Image"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.ImagePowerAppsLogo.Image",
+                  "fullyQualifiedName": "LecturersPage.ImagePowerAppsLogo.Image",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -32,8 +32,8 @@
               },
               "properties": {
                 "member": "Image",
-                "module": "Screen2",
-                "type": "Screen2.ImagePowerAppsLogo"
+                "module": "LecturersPage",
+                "type": "LecturersPage.ImagePowerAppsLogo"
               }
             }
           ],
@@ -54,12 +54,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -72,8 +72,8 @@
               },
               "properties": {
                 "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -94,12 +94,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -112,8 +112,8 @@
               },
               "properties": {
                 "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -134,12 +134,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -152,8 +152,8 @@
               },
               "properties": {
                 "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -171,12 +171,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.TemplateFill",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.TemplateFill",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -189,8 +189,8 @@
               },
               "properties": {
                 "member": "TemplateFill",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -212,12 +212,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -230,8 +230,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -253,12 +253,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -271,8 +271,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -290,12 +290,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -308,8 +308,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -331,12 +331,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -349,8 +349,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -372,12 +372,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -390,8 +390,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -413,12 +413,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.galleryTemplate1.OnSelect",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.galleryTemplate1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -431,8 +431,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.galleryTemplate1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.galleryTemplate1"
               }
             }
           ],
@@ -450,12 +450,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Image1.Image"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Image1.Image"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Image1.Image",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Image1.Image",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -468,8 +468,8 @@
               },
               "properties": {
                 "member": "Image",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Image1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.Image1"
               }
             }
           ],
@@ -490,12 +490,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Label4.Text"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Label4.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Label4.Text",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Label4.Text",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -508,8 +508,8 @@
               },
               "properties": {
                 "member": "Text",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Label4"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.Label4"
               }
             }
           ],
@@ -530,12 +530,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -548,8 +548,8 @@
               },
               "properties": {
                 "member": "Visible",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Rectangle1_1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.Rectangle1_1"
               }
             }
           ],
@@ -570,12 +570,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -588,8 +588,8 @@
               },
               "properties": {
                 "member": "Visible",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Rectangle1_1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.Rectangle1_1"
               }
             }
           ],
@@ -610,12 +610,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -628,8 +628,8 @@
               },
               "properties": {
                 "member": "Visible",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Rectangle1_1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.Rectangle1_1"
               }
             }
           ],
@@ -647,12 +647,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.Rectangle1_1.Visible",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.Rectangle1_1.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -665,8 +665,8 @@
               },
               "properties": {
                 "member": "Visible",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation.Rectangle1_1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation.Rectangle1_1"
               }
             }
           ],
@@ -717,49 +717,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen1.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "LecturersPage.Gallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen1",
-                "type": "Screen1.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen1.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen1.Gallery1.TabIndex",
+                  "fullyQualifiedName": "LecturersPage.Gallery1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen1",
-                "type": "Screen1.Gallery1"
+                "module": "LecturersPage",
+                "type": "LecturersPage.Gallery1"
               }
             }
           ],
@@ -770,6 +740,36 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LecturersPage.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LecturersPage.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "LecturersPage",
+                "type": "LecturersPage.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 7
         },
         {
@@ -777,48 +777,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2"
+                  "fullyQualifiedName": "LecturersPage.iconHamburgerMenu_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "module": "Screen2",
-                "type": "Screen2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Low"
-          },
-          "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen2.iconHamburgerMenu_6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen2.iconHamburgerMenu_6.AccessibleLabel",
+                  "fullyQualifiedName": "LecturersPage.iconHamburgerMenu_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.iconHamburgerMenu_6"
+                "module": "LecturersPage",
+                "type": "LecturersPage.iconHamburgerMenu_6"
               }
             }
           ],
@@ -829,26 +800,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.AccessibleLabel"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.AccessibleLabel",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation"
               }
             }
           ],
@@ -859,26 +830,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.TabIndex"
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen2.GalleryNavigation.TabIndex",
+                  "fullyQualifiedName": "LecturersPage.GalleryNavigation.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen2",
-                "type": "Screen2.GalleryNavigation"
+                "module": "LecturersPage",
+                "type": "LecturersPage.GalleryNavigation"
               }
             }
           ],
@@ -889,7 +860,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
+          "ruleIndex": 6
         }
       ],
       "tool": {
@@ -995,23 +966,6 @@
               }
             },
             {
-              "id": "acc-AccessibleLabelNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing accessible label"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit the accessible label property to describe the item."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
-              }
-            },
-            {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {
                 "issue": {
@@ -1026,6 +980,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             }
           ],
