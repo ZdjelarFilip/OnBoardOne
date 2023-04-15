@@ -17,6 +17,9 @@
           "Locations_1": {
             "tableName": "cd70e34a-14e0-49d7-943e-c7354301c55f"
           },
+          "PrijavljeniNaDogodek": {
+            "tableName": "c670aa02-cc4e-4bc6-8e1f-c77884df555e"
+          },
           "WorkFreeDaysSLO_1": {
             "tableName": "81013c28-697d-4302-8ea8-7df0ac456945"
           }
@@ -27,7 +30,8 @@
       "Events_1",
       "Lecturers_3",
       "Locations_1",
-      "WorkFreeDaysSLO_1"
+      "WorkFreeDaysSLO_1",
+      "PrijavljeniNaDogodek"
     ],
     "dependencies": {},
     "dependents": [],
