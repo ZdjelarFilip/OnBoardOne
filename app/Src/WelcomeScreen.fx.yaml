@@ -5,45 +5,46 @@ WelcomeScreen As screen:
         BorderColor: =RGBA(0, 89, 178, 1)
         Fill: =RGBA(217, 85, 85, 1)
         Height: =768
-        Width: =658
+        Width: =924
         ZIndex: =1
 
     Label3 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 89, 178, 1)
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
         Height: =64
         Size: =13
         Text: ="Comtrade Gaming"
-        Width: =658
+        Width: =924
         Y: =704
         ZIndex: =2
 
     Label4 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 89, 178, 1)
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Bold
         Height: =146
         Size: =45
         Text: ="OnBoardOne"
-        Width: =658
-        Y: =267
+        Width: =924
+        Y: =264
         ZIndex: =3
 
     Label5 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 89, 178, 1)
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =89
         Size: =18
         Text: ="Pozdravljeni"
-        X: =254
-        Y: =467
+        Width: =924
+        Y: =410
         ZIndex: =4
 
     Button1 As button:
@@ -62,8 +63,8 @@ WelcomeScreen As screen:
         Size: =15
         Text: ="Predavanja"
         Width: =265
-        X: =888
-        Y: =152
+        X: =1012
+        Y: =148
         ZIndex: =5
 
     Button1_2 As button:
@@ -82,7 +83,7 @@ WelcomeScreen As screen:
         Size: =15
         Text: ="OnBoard Dogodki"
         Width: =265
-        X: =888
-        Y: =542
+        X: =1012
+        Y: =534
         ZIndex: =6
 
