@@ -14,8 +14,6 @@ AktualniDogodkiScreen As screen:
         Label1_1 As label:
             Align: =Align.Center
             BorderColor: =RGBA(186, 202, 226, 1)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =RGBA(128, 128, 128, 1)
             Size: =16
             Text: ="OnBoardOne"
@@ -23,9 +21,6 @@ AktualniDogodkiScreen As screen:
 
         Label2 As label:
             BorderColor: =RGBA(0, 89, 178, 1)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Size: =13
             Text: ="AKTUALNI DOGODKI"
             ZIndex: =2
 
