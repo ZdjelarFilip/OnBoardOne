@@ -7,7 +7,7 @@ LecturersPage As screen:
         TemplateSize: =Min(160, Self.Height - 60)
         X: =405
         Y: =80
-        ZIndex: =9
+        ZIndex: =1
 
         Image2 As image:
             Height: =128
@@ -68,32 +68,34 @@ LecturersPage As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    Button1 As button:
-        Fill: =RGBA(128, 128, 128, 1)
-        OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
-        Text: ="Dogodki"
-        Width: =121
-        Y: =128
-        ZIndex: =11
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =55
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1365
+        ZIndex: =2
+
+    Container5 As groupContainer.horizontalAutoLayoutContainer:
+        BorderColor: =RGBA(199, 48, 48, 1)
+        Fill: =RGBA(201, 48, 48, 1)
+        Height: =713
+        LayoutMode: =LayoutMode.Auto
+        Width: =153
+        Y: =55
+        ZIndex: =3
 
     Button2 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Text: ="Button"
         Width: =121
         Y: =184
-        ZIndex: =12
+        ZIndex: =4
 
-    Container1 As groupContainer.verticalAutoLayoutContainer:
-        Height: =55
-        LayoutDirection: =LayoutDirection.Vertical
-        LayoutMode: =LayoutMode.Auto
-        Width: =1365
-        ZIndex: =13
-
-    Container5 As groupContainer.horizontalAutoLayoutContainer:
-        Height: =713
-        LayoutMode: =LayoutMode.Auto
-        Width: =153
-        Y: =55
-        ZIndex: =14
+    Button1 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
+        Text: ="Dogodki"
+        Width: =121
+        Y: =128
+        ZIndex: =5
 
