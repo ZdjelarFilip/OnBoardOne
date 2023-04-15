@@ -121,7 +121,10 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "LecturersPage"
+    "LecturersPage",
+    "AktualniDogodkiPage",
+    "PretekliDogodkiScreen",
+    "PrijavaNaDogodekScreen",
+    "UrejanjePodatkovScreen"
   ]
 }

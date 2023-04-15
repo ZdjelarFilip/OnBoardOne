@@ -1,6 +1,6 @@
-LecturersPage As screen:
+AktualniDogodkiPage As screen:
 
-    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+    "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
@@ -9,7 +9,7 @@ LecturersPage As screen:
         Y: =80
         ZIndex: =1
 
-        Image2 As image:
+        Image2_1 As image:
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -17,7 +17,7 @@ LecturersPage As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Title1 As label:
+        Title1_1 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -26,12 +26,12 @@ LecturersPage As screen:
             PaddingTop: =0
             Text: =ThisItem.Owner
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image2.Width - 104
-            X: =Image2.X + Image2.Width + 24
+            Width: =Parent.TemplateWidth - Image2_1.Width - 104
+            X: =Image2_1.X + Image2_1.Width + 24
             Y: =44
             ZIndex: =2
 
-        Subtitle1 As label:
+        Subtitle1_1 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -40,12 +40,12 @@ LecturersPage As screen:
             PaddingTop: =0
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title1.Width
+            Width: =Title1_1.Width
             X: =168
             Y: =80
             ZIndex: =3
 
-        NextArrow1 As icon.ChevronRight:
+        NextArrow1_1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -61,14 +61,14 @@ LecturersPage As screen:
             Y: =52
             ZIndex: =4
 
-        Separator1 As rectangle:
+        Separator1_1 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    Container1 As groupContainer.verticalAutoLayoutContainer:
+    Container1_1 As groupContainer.verticalAutoLayoutContainer:
         Height: =80
         LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -76,12 +76,12 @@ LecturersPage As screen:
         Width: =1365
         ZIndex: =2
 
-        Label1 As label:
+        Label1_1 As label:
             Align: =Align.Center
             Text: ="OnBoardOne"
             ZIndex: =1
 
-    Container5 As groupContainer.horizontalAutoLayoutContainer:
+    Container5_1 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
         Fill: =RGBA(217, 85, 85, 1)
         Height: =688
@@ -90,7 +90,7 @@ LecturersPage As screen:
         Y: =80
         ZIndex: =3
 
-    PrijavaNaDogodekButton As button:
+    PrijavaNaDogodekButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
         Text: ="Prijava na dogodek"
@@ -98,7 +98,7 @@ LecturersPage As screen:
         Y: =294
         ZIndex: =4
 
-    AktualniDogodkiButton As button:
+    AktualniDogodkiButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
         OnSelect: =Navigate(AktualniDogodkiPage,ScreenTransition.Fade)
@@ -107,7 +107,7 @@ LecturersPage As screen:
         Y: =124
         ZIndex: =5
 
-    PretekliDogodkiButton As button:
+    PretekliDogodkiButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
         OnSelect: =Navigate(AktualniDogodkiPage,ScreenTransition.Fade)
@@ -116,7 +116,7 @@ LecturersPage As screen:
         Y: =209
         ZIndex: =6
 
-    UrejanjePodatkovButton As button:
+    UrejanjePodatkovButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
         Text: ="Urejanje podatkov"
