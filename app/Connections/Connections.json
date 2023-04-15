@@ -1,1 +1,24 @@
-{}
+{
+  "377d6d9e-2d35-473d-9dae-50ef1a0d2e46": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://univerzamb.sharepoint.com/sites/OnBoardOne_1": {
+        "dataSources": {
+          "Documents": {
+            "tableName": "86ec8239-2007-46f4-87bd-bd0c221003fe"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Documents"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "377d6d9e-2d35-473d-9dae-50ef1a0d2e46"
+  }
+}

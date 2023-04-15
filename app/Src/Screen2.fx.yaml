@@ -47,7 +47,6 @@ Screen2 As screen:
             Fill: =RGBA(0,0,0,0)
             HoverBorderColor: =GalleryNavigation.BorderColor
             HoverFill: =GalleryNavigation.Fill
-            Items: =NavigationMenu
             Layout: =Layout.Vertical
             LoadingSpinnerColor: =GalleryNavigation.BorderColor
             OnSelect: |-
