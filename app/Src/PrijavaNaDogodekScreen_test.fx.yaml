@@ -60,7 +60,7 @@ PrijavaNaDogodekScreen_test As screen:
             BorderColor: =RGBA(0, 89, 178, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
-            Default: =ThisItem.Title
+            Default: =ThisItem.Naslov
             DisplayMode: =Parent.DisplayMode
             DisplayName: =
             Fill: =RGBA(0, 0, 0, 0)

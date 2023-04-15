@@ -28,7 +28,10 @@
       "Lecturers_3",
       "Locations_1",
       "WorkFreeDaysSLO_1",
-      "Lecture_dates"
+      "Lecture_dates",
+      "PrijavljeniNaDogodek_1",
+      "Lecturers_1",
+      "Documents_1"
     ],
     "dependencies": {},
     "dependents": [],
@@ -45,7 +48,9 @@
       "Office365Outlook"
     ],
     "dependencies": {},
-    "dependents": [],
+    "dependents": [
+      "8502af06-fb9a-4c19-b882-cca40cb3266f"
+    ],
     "id": "4e45a229-b697-4376-85b8-78be8c55818f"
   },
   "84de2810-8855-4539-9580-33e001d9540d": {
@@ -69,6 +74,34 @@
     "dependencies": {},
     "dependents": [],
     "id": "84de2810-8855-4539-9580-33e001d9540d"
+  },
+  "8502af06-fb9a-4c19-b882-cca40cb3266f": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8acebe6a-3f7e-4a9f-8162-6a44a9298b71"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "8acebe6a-3f7e-4a9f-8162-6a44a9298b71"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ClickaPowerAppsbuttontocreateaneventinOffice365Outlook–2"
+    ],
+    "dependencies": {
+      "shared_office365": "4e45a229-b697-4376-85b8-78be8c55818f"
+    },
+    "dependents": [],
+    "id": "8502af06-fb9a-4c19-b882-cca40cb3266f"
   },
   "a15c2449-870e-42e0-81e4-001896ac4675": {
     "connectionRef": {
