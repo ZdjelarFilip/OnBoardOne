@@ -20,5 +20,31 @@
     "dependencies": {},
     "dependents": [],
     "id": "377d6d9e-2d35-473d-9dae-50ef1a0d2e46"
+  },
+  "fc596c8e-a367-458b-a9fa-b78c84164629": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://univerzamb.sharepoint.com/sites/OnBoardOne_1": {
+        "dataSources": {
+          "Documents_1": {
+            "tableName": "86ec8239-2007-46f4-87bd-bd0c221003fe"
+          },
+          "Lecturers_1": {
+            "tableName": "cdcbf57a-bba1-4029-bede-0ccb10189dfe"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Lecturers_1",
+      "Documents_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fc596c8e-a367-458b-a9fa-b78c84164629"
   }
 }

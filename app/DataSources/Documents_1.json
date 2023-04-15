@@ -43,7 +43,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Documents",
+    "Name": "Documents_1",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
