@@ -27,7 +27,8 @@
       "Events_1",
       "Lecturers_3",
       "Locations_1",
-      "WorkFreeDaysSLO_1"
+      "WorkFreeDaysSLO_1",
+      "Lecture_dates"
     ],
     "dependencies": {},
     "dependents": [],
