@@ -69,6 +69,45 @@ Lecturers_details As screen:
         Y: =156
         ZIndex: =6
 
+        Owner_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.Owner
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Lecturers_1],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =677
+            X: =0
+            Y: =0
+            ZIndex: =7
+
+            DataCardKey1 As label:
+                AutoHeight: =true
+                FontWeight: =FontWeight.Bold
+                Height: =34
+                Size: =24
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =20
+                Y: =4
+                ZIndex: =1
+
+            DataCardValue1 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =60
+                Y: =57
+                ZIndex: =2
+
         Department_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_1"
@@ -108,21 +147,21 @@ Lecturers_details As screen:
                 Y: =63
                 ZIndex: =2
 
-        Owner_DataCard1 As typedDataCard.textualViewCard:
+        Location_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Title"
-            Default: =ThisItem.Owner
+            DataField: ="field_2"
+            Default: =ThisItem.Location
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Lecturers_1],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@Lecturers_1],DataSourceInfo.DisplayName,"field_2")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
             Width: =677
             X: =0
-            Y: =0
+            Y: =2
             ZIndex: =7
 
-            DataCardKey1 As label:
+            DataCardKey3 As label:
                 AutoHeight: =true
                 FontWeight: =FontWeight.Bold
                 Height: =34
@@ -130,11 +169,11 @@ Lecturers_details As screen:
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
-                X: =20
-                Y: =4
+                X: =30
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As label:
+            DataCardValue3 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
@@ -144,7 +183,7 @@ Lecturers_details As screen:
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =60
-                Y: =57
+                Y: =63
                 ZIndex: =2
 
         Email_DataCard1 As typedDataCard.textualViewCard:
@@ -213,45 +252,6 @@ Lecturers_details As screen:
                 ZIndex: =1
 
             DataCardValue5 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =60
-                Y: =63
-                ZIndex: =2
-
-        Location_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_2"
-            Default: =ThisItem.Location
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Lecturers_1],DataSourceInfo.DisplayName,"field_2")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =677
-            X: =0
-            Y: =2
-            ZIndex: =7
-
-            DataCardKey3 As label:
-                AutoHeight: =true
-                FontWeight: =FontWeight.Bold
-                Height: =34
-                Size: =24
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue3 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =27

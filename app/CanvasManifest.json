@@ -126,6 +126,8 @@
     "PretekliDogodkiScreen",
     "PrijavaNaDogodekScreen",
     "Lecturers_details",
-    "Lecturers_edit"
+    "AktualniDogodki_Details",
+    "Lecturers_edit",
+    "AktualniDogodki_Edit"
   ]
 }

@@ -1,0 +1,599 @@
+AktualniDogodki_Details As screen:
+    Fill: =RGBA(232, 232, 232, 1)
+
+    Container1_8 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(217, 85, 85, 1)
+        Height: =80
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =1365
+        ZIndex: =1
+
+        Label1_8 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(186, 202, 226, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Size: =20
+            Text: ="OnBoardOne"
+            Width: =300
+            ZIndex: =1
+
+    Container5_8 As groupContainer.horizontalAutoLayoutContainer:
+        BorderColor: =RGBA(199, 48, 48, 1)
+        Height: =688
+        LayoutMode: =LayoutMode.Auto
+        Width: =153
+        Y: =80
+        ZIndex: =2
+
+    PrijavaNaDogodekButton_8 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
+        Text: ="Prijava na dogodek"
+        Width: =153
+        Y: =475
+        ZIndex: =3
+
+    AktualniDogodkiButton_8 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+        Text: ="Aktulani Dogodki"
+        Width: =153
+        Y: =309
+        ZIndex: =4
+
+    PretekliDogodkiButton_8 As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
+        Text: ="Pretekli Dogodki"
+        Width: =153
+        Y: =393
+        ZIndex: =5
+
+    IconDelete1_1 As icon.Trash:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =
+        Height: =88
+        Icon: =Icon.Trash
+        OnSelect: |
+            =Remove([@Lecturers_1], Gallery_lecturers.Selected); If (IsEmpty(Errors([@Lecturers_1], Gallery_lecturers.Selected)), Back())
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Delete this item"
+        Width: =88
+        X: =1189
+        ZIndex: =7
+
+    IconEdit1_1 As icon.Edit:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =
+        Height: =88
+        Icon: =Icon.Edit
+        OnSelect: =EditForm(AktualniDogodkiEdit_Form);Navigate(AktualniDogodki_Edit, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Edit this item"
+        Width: =88
+        X: =1277
+        ZIndex: =8
+
+    FormViewer2 As formViewer:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        DataSource: =Events_1
+        Height: =396
+        Item: =Gallery_AktualniDogodki.Selected
+        NumberOfColumns: =1
+        Width: =1062
+        X: =204
+        Y: =200
+        ZIndex: =9
+
+        Event_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.Event
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =0
+            ZIndex: =10
+
+            DataCardKey12 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue12 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                ZIndex: =2
+
+        Event_SLO_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_1"
+            Default: =ThisItem.Event_SLO
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_1")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =1
+            ZIndex: =10
+
+            DataCardKey13 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue13 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                Y: =52
+                ZIndex: =2
+
+        Natural_Order_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_2"
+            Default: =ThisItem.Natural_Order
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_2")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =2
+            ZIndex: =10
+
+            DataCardKey14 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue14 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                ZIndex: =2
+
+        Duration_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.Duration
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_3")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =3
+            ZIndex: =10
+
+            DataCardKey15 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue15 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
+                ZIndex: =2
+
+        Owner_LJ_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.Owner_LJ
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_4")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =4
+            ZIndex: =10
+
+            DataCardKey16 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue16 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                ZIndex: =2
+
+        Owner_MB_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_5"
+            Default: =ThisItem.Owner_MB
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_5")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =5
+            ZIndex: =10
+
+            DataCardKey17 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue17 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
+                ZIndex: =2
+
+        BASE64_DR_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_6"
+            Default: =ThisItem.BASE64_DR
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_6")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =6
+            ZIndex: =10
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue18 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =2
+
+        Text_ENG_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_7"
+            Default: =ThisItem.Text_ENG
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_7")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =7
+            ZIndex: =10
+
+            DataCardKey19 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue19 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey19.Y + DataCardKey19.Height + 5
+                ZIndex: =2
+
+        Text_SLO_M_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_8"
+            Default: =ThisItem.Text_SLO_M
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_8")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =8
+            ZIndex: =10
+
+            DataCardKey20 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue20 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
+                ZIndex: =2
+
+        Text_SLO_F_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_9"
+            Default: =ThisItem.Text_SLO_F
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_9")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =9
+            ZIndex: =10
+
+            DataCardKey21 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue21 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey21.Y + DataCardKey21.Height + 5
+                ZIndex: =2
+
+        __PowerAppsId___DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_10"
+            Default: =ThisItem.__PowerAppsId__
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"field_10")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =1062
+            X: =0
+            Y: =10
+            ZIndex: =10
+
+            DataCardKey22 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =20
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue22 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 89, 178, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
+                ZIndex: =2
+
