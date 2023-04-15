@@ -1,0 +1,53 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-04-04T16:26:33.9110000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Attachments",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "File name with extension",
+      "{FullPath}": "Full Path",
+      "{HasAttachments}": "Has attachments",
+      "{Identifier}": "Identifier",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Link to item",
+      "{ModerationComment}": "Comments associated with the content approval of this list item",
+      "{ModerationStatus}": "Content approval status",
+      "{Name}": "Name",
+      "{Path}": "Folder path",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Trigger Window End Token",
+      "{TriggerWindowStartToken}": "Trigger Window Start Token",
+      "{VersionNumber}": "Version number",
+      "Author": "Created By",
+      "Author#Claims": "Created By Claims",
+      "ComplianceAssetId": "Compliance Asset Id",
+      "Created": "Created",
+      "Editor": "Modified By",
+      "Editor#Claims": "Modified By Claims",
+      "field_1": "Event_SLO",
+      "field_10": "__PowerAppsId__",
+      "field_2": "Natural_Order",
+      "field_3": "Duration",
+      "field_4": "Owner_LJ",
+      "field_5": "Owner_MB",
+      "field_6": "BASE64_DR",
+      "field_7": "Text_ENG",
+      "field_8": "Text_SLO_M",
+      "field_9": "Text_SLO_F",
+      "ID": "ID",
+      "Modified": "Modified",
+      "Title": "Event"
+    },
+    "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Events_1",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

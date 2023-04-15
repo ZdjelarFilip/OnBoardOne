@@ -101,7 +101,6 @@ LecturersScreen As screen:
             BorderColor: =RGBA(186, 202, 226, 1)
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(128, 128, 128, 1)
             Size: =16
             Text: ="OnBoardOne"
             ZIndex: =1
@@ -116,7 +115,7 @@ LecturersScreen As screen:
 
     Container5_5 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
-        Fill: =RGBA(217, 85, 85, 1)
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =688
         LayoutMode: =LayoutMode.Auto
         Width: =153

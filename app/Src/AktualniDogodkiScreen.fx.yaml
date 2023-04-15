@@ -33,90 +33,62 @@ AktualniDogodkiScreen As screen:
         BorderThickness: =1
         Fill: =RGBA(255, 255, 255, 1)
         Height: =688
+        LayoutAlignItems: =LayoutAlignItems.End
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =153
         Y: =80
         ZIndex: =3
 
-    PrijavaNaDogodekButton_1 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(128, 128, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =61
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
-        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
-        Size: =15
-        Text: ="Prijava na dogodek"
-        Width: =153
-        Y: =294
-        ZIndex: =4
+        AktualniDogodkiButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+            Text: ="Aktulani Dogodki"
+            Width: =153
+            Y: =124
+            ZIndex: =1
 
-    AktualniDogodkiButton_1 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(128, 128, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =61
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
-        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Size: =15
-        Text: ="Aktulani Dogodki"
-        Width: =153
-        Y: =124
-        ZIndex: =5
+        PrijavaNaDogodekButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
+            Text: ="Prijava na dogodek"
+            Width: =153
+            Y: =294
+            ZIndex: =2
 
-    PretekliDogodkiButton_1 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(128, 128, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =61
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
-        OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
-        Size: =15
-        Text: ="Pretekli Dogodki"
-        Width: =153
-        Y: =209
-        ZIndex: =6
+        PretekliDogodkiButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
+            Text: ="Pretekli Dogodki"
+            Width: =153
+            Y: =209
+            ZIndex: =3
 
-    UrejanjePodatkovButton_1 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(128, 128, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =61
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
-        OnSelect: =Navigate(UrejanjePodatkovScreen,ScreenTransition.Fade)
-        Size: =15
-        Text: ="Urejanje podatkov"
-        Width: =153
-        Y: =639
-        ZIndex: =7
+        UrejanjePodatkovButton_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
+            Height: =61
+            OnSelect: =Navigate(UrejanjePodatkovScreen,ScreenTransition.Fade)
+            Text: ="Urejanje podatkov"
+            Width: =153
+            Y: =639
+            ZIndex: =4
 
-    "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        BorderColor: =RGBA(0, 89, 178, 1)
-        Items: =Events
+    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =645
+        Items: =Events_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Width: =1114
-        X: =198
-        Y: =136
+        Width: =1160
+        X: =180
+        Y: =108
         ZIndex: =8
 
-        Image5 As image:
-            BorderColor: =RGBA(0, 89, 178, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
+        Image3 As image:
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -124,47 +96,36 @@ AktualniDogodkiScreen As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Title5 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
+        Title3 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =20
             Text: =ThisItem.Event
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image5.Width - 104
-            X: =Image5.X + Image5.Width + 24
+            Width: =Parent.TemplateWidth - Image3.Width - 104
+            X: =Image3.X + Image3.Width + 24
             Y: =44
             ZIndex: =2
 
-        Subtitle5 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
+        Subtitle3 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =18
             Text: =ThisItem.Event_SLO
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title5.Width
-            X: =Title5.X
-            Y: =Title5.Y + Title5.Height + 4
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height + 4
             ZIndex: =3
 
-        NextArrow5 As icon.ChevronRight:
+        NextArrow3 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(0, 89, 178, 1)
-            Color: =RGBA(0, 89, 178, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent)
@@ -179,9 +140,7 @@ AktualniDogodkiScreen As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator5 As rectangle:
-            BorderColor: =RGBA(0, 89, 178, 1)
-            Fill: =RGBA(0, 89, 178, 1)
+        Separator3 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
