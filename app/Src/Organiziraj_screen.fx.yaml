@@ -53,8 +53,8 @@ Organiziraj_screen As screen:
         TabIndex: =0
         Tooltip: ="Delete this item"
         Width: =88
-        X: =1156
-        Y: =131
+        X: =764
+        Y: =328
         ZIndex: =7
 
     DatePicker_submit As datepicker:
@@ -67,8 +67,8 @@ Organiziraj_screen As screen:
         HoverDateFill: =RGBA(153, 205, 255, 1)
         IconBackground: =RGBA(0, 51, 102, 1)
         SelectedDateFill: =RGBA(0, 51, 102, 1)
-        X: =458
-        Y: =269
+        X: =390
+        Y: =201
         ZIndex: =10
 
     Label1 As label:
@@ -77,8 +77,8 @@ Organiziraj_screen As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         Size: =13
         Text: ="Izberi Dan "
-        X: =458
-        Y: =216
+        X: =390
+        Y: =148
         ZIndex: =11
 
     IconEdit1_3 As icon.Edit:
@@ -86,7 +86,7 @@ Organiziraj_screen As screen:
         DisplayMode: =
         Height: =82
         Icon: =Icon.Add
-        OnSelect: =
+        OnSelect: =SubmitForm(Form1); 
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -94,8 +94,8 @@ Organiziraj_screen As screen:
         TabIndex: =0
         Tooltip: ="Edit this item"
         Width: =88
-        X: =1068
-        Y: =130
+        X: =1147
+        Y: =298
         ZIndex: =12
 
     Radio1 As radio:
@@ -140,8 +140,8 @@ Organiziraj_screen As screen:
         DefaultMode: =FormMode.New
         Height: =231
         Width: =983
-        X: =290
-        Y: =403
+        X: =284
+        Y: =454
         ZIndex: =16
 
         datetime_DataCard1 As typedDataCard.dateTimeEditCard:
@@ -150,7 +150,7 @@ Organiziraj_screen As screen:
             DataField: ="datetime"
             Default: =ThisItem.datetime
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DatePicker_submit
+            DisplayName: =DataSourceInfo([@Lecture_dates],DataSourceInfo.DisplayName,"datetime")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -160,7 +160,7 @@ Organiziraj_screen As screen:
             Y: =0
             ZIndex: =17
 
-            DataCardKey21 As label:
+            DataCardKey22 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -193,7 +193,7 @@ Organiziraj_screen As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) / 2
                 X: =30
-                Y: =DataCardKey21.Y + DataCardKey21.Height + 5
+                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
                 ZIndex: =2
 
             HourValue1 As dropdown:
@@ -276,7 +276,7 @@ Organiziraj_screen As screen:
                 Y: =HourValue1.Y
                 ZIndex: =5
 
-            ErrorMessage19 As label:
+            ErrorMessage20 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -294,37 +294,37 @@ Organiziraj_screen As screen:
                 Y: =HourValue1.Y + HourValue1.Height
                 ZIndex: =6
 
-            StarVisible19 As label:
+            StarVisible20 As label:
                 Align: =Align.Center
                 Color: =RGBA(0, 89, 178, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey21.Height
+                Height: =DataCardKey22.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey21.Y
+                Y: =DataCardKey22.Y
                 ZIndex: =7
 
         lecture_id_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(0, 89, 178, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="lecture_id"
-            Default: =ThisItem.lecture_id
+            Default: =Dropdown_event_org_1.Selected.__PowerAppsId__
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =1
+            DisplayName: =DataSourceInfo([@Lecture_dates],DataSourceInfo.DisplayName,"lecture_id")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@Lecture_dates], DataSourceInfo.MaxLength, "lecture_id")
             Required: =false
-            Update: =DataCardValue21.Text
+            Update: =DataCardValue22.Text
             Width: =327
             X: =1
             Y: =0
             ZIndex: =17
 
-            DataCardKey22 As label:
+            DataCardKey34 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -337,11 +337,11 @@ Organiziraj_screen As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue21 As text:
+            DataCardValue22 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
-                Default: =1
+                Default: =Dropdown_event_org_1.Selected.__PowerAppsId__
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -361,10 +361,10 @@ Organiziraj_screen As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
+                Y: =DataCardKey34.Y + DataCardKey34.Height + 5
                 ZIndex: =2
 
-            ErrorMessage20 As label:
+            ErrorMessage21 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -379,19 +379,73 @@ Organiziraj_screen As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue21.Y + DataCardValue21.Height
+                Y: =DataCardValue22.Y + DataCardValue22.Height
                 ZIndex: =3
 
-            StarVisible20 As label:
+            StarVisible21 As label:
                 Align: =Align.Center
                 Color: =RGBA(0, 89, 178, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey22.Height
+                Height: =DataCardKey34.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey22.Y
+                Y: =DataCardKey34.Y
                 ZIndex: =4
+
+    Label1_1 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Razpisani dogodki v izbranem dnevu "
+        Width: =339
+        X: =405
+        Y: =309
+        ZIndex: =17
+
+    Label1_3 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Dodaj dogodek v izbran dan"
+        Width: =339
+        X: =313
+        Y: =427
+        ZIndex: =18
+
+    Dropdown_event_org_1 As dropdown:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        ChevronBackground: =RGBA(0, 51, 102, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(153, 205, 255, 1)
+        Items: =Events_1
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(0, 89, 178, 1)
+        SelectionFill: =RGBA(0, 51, 102, 1)
+        Size: =13
+        X: =953
+        Y: =504
+        ZIndex: =19
+
+    Label1_8 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Izberi dogodek"
+        Width: =339
+        X: =953
+        Y: =459
+        ZIndex: =20
 
