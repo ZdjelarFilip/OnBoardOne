@@ -54,46 +54,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LecturersScreen.UrejanjePodatkovButton_5.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "LecturersScreen.UrejanjePodatkovButton_5.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "UrejanjePodatkovScreen"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "LecturersScreen",
-                "type": "LecturersScreen.UrejanjePodatkovButton_5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "UrejanjePodatkovScreen"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "AktualniDogodkiScreen.Gallery3.AccessibleLabel"
                 }
               ],
@@ -154,19 +114,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LecturersScreen.Gallery1_5.AccessibleLabel"
+                  "fullyQualifiedName": "LecturersScreen.Gallery_lecturers.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LecturersScreen.Gallery1_5.AccessibleLabel",
+                  "fullyQualifiedName": "LecturersScreen.Gallery_lecturers.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "LecturersScreen",
-                "type": "LecturersScreen.Gallery1_5"
+                "type": "LecturersScreen.Gallery_lecturers"
               }
             }
           ],
@@ -184,19 +144,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LecturersScreen.Gallery1_5.TabIndex"
+                  "fullyQualifiedName": "LecturersScreen.Gallery_lecturers.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LecturersScreen.Gallery1_5.TabIndex",
+                  "fullyQualifiedName": "LecturersScreen.Gallery_lecturers.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "LecturersScreen",
-                "type": "LecturersScreen.Gallery1_5"
+                "type": "LecturersScreen.Gallery_lecturers"
               }
             }
           ],
