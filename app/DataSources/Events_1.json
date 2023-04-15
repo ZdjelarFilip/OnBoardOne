@@ -29,19 +29,25 @@
       "Created": "Ustvarjeno",
       "Editor": "Spremenil",
       "Editor#Claims": "Spremenil Claims",
-      "field_1": "Department",
-      "field_2": "Location",
-      "field_3": "Email",
-      "field_4": "Gender",
+      "field_1": "Event_SLO",
+      "field_10": "__PowerAppsId__",
+      "field_2": "Natural_Order",
+      "field_3": "Duration",
+      "field_4": "Owner_LJ",
+      "field_5": "Owner_MB",
+      "field_6": "BASE64_DR",
+      "field_7": "Text_ENG",
+      "field_8": "Text_SLO_M",
+      "field_9": "Text_SLO_F",
       "ID": "ID",
       "Modified": "Spremenjeno",
-      "Title": "Owner"
+      "Title": "Event"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "Lecturers_1",
+    "Name": "Events_1",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

@@ -67,17 +67,18 @@ AktualniDogodkiScreen As screen:
         Y: =639
         ZIndex: =7
 
-    "Gallery5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Events
+    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Height: =645
+        Items: =Events_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Width: =1114
-        X: =198
-        Y: =136
+        Width: =1160
+        X: =180
+        Y: =108
         ZIndex: =8
 
-        Image5 As image:
+        Image3 As image:
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -85,7 +86,7 @@ AktualniDogodkiScreen As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Title5 As label:
+        Title3 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -94,12 +95,12 @@ AktualniDogodkiScreen As screen:
             PaddingTop: =0
             Text: =ThisItem.Event
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image5.Width - 104
-            X: =Image5.X + Image5.Width + 24
+            Width: =Parent.TemplateWidth - Image3.Width - 104
+            X: =Image3.X + Image3.Width + 24
             Y: =44
             ZIndex: =2
 
-        Subtitle5 As label:
+        Subtitle3 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -108,12 +109,12 @@ AktualniDogodkiScreen As screen:
             PaddingTop: =0
             Text: =ThisItem.Event_SLO
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title5.Width
-            X: =Title5.X
-            Y: =Title5.Y + Title5.Height + 4
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height + 4
             ZIndex: =3
 
-        NextArrow5 As icon.ChevronRight:
+        NextArrow3 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -129,7 +130,7 @@ AktualniDogodkiScreen As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator5 As rectangle:
+        Separator3 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
