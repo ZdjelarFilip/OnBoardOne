@@ -17,45 +17,48 @@ LecturersScreen As screen:
         ZIndex: =1
 
         Title4 As label:
-            Height: =38
+            Height: =93
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =16
             Text: =ThisItem.Owner
             VerticalAlign: =VerticalAlign.Top
-            Width: =140
-            X: =35
-            Y: =69
+            Width: =145
+            X: =28
+            Y: =54
             ZIndex: =1
 
         Subtitle4 As label:
-            Height: =28
+            Height: =93
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =16
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
-            Width: =138
-            X: =273
-            Y: =71
+            Width: =142
+            X: =411
+            Y: =54
             ZIndex: =2
 
         Body3 As label:
-            Height: =28
+            Height: =93
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =16
             Text: =ThisItem.Location
             VerticalAlign: =VerticalAlign.Top
-            Width: =183
-            X: =413
-            Y: =71
+            Width: =189
+            X: =907
+            Y: =54
             ZIndex: =3
 
         NextArrow4 As icon.ChevronRight:
@@ -101,7 +104,7 @@ LecturersScreen As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Size: =20
-            Text: ="Predavanja"
+            Text: ="Nosilci Predavanj"
             Width: =300
             ZIndex: =1
 
@@ -150,4 +153,39 @@ LecturersScreen As screen:
         Width: =88
         X: =Parent.Width - Self.Width
         ZIndex: =7
+
+    Label7 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =35
+        Size: =20
+        Text: ="IME IN PRIIMEK"
+        Width: =241
+        X: =183
+        Y: =142
+        ZIndex: =8
+
+    Label8 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="ODDELEK"
+        X: =589
+        Y: =142
+        ZIndex: =9
+
+    Label9 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="LOKACIJA"
+        X: =1077
+        Y: =137
+        ZIndex: =10
 

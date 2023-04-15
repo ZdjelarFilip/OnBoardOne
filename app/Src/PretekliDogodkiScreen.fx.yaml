@@ -5,7 +5,7 @@ PretekliDogodkiScreen As screen:
         BorderColor: =RGBA(162, 162, 162, 1)
         BorderThickness: =3
         Height: =618
-        Items: =SortByColumns(Filter(Lecturers_1,'datetime'<Today()-7))
+        Items: =SortByColumns(Filter(Lecturers_1,datetime<Today()-7))
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
