@@ -1,4 +1,4 @@
-AktualniDogodkiPage As screen:
+AktualniDogodkiScreen As screen:
 
     "Gallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Items: =Lecturers_1
@@ -98,6 +98,7 @@ AktualniDogodkiPage As screen:
     PrijavaNaDogodekButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
         Text: ="Prijava na dogodek"
         Width: =153
         Y: =294
@@ -106,7 +107,7 @@ AktualniDogodkiPage As screen:
     AktualniDogodkiButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
-        OnSelect: =Navigate(AktualniDogodkiPage,ScreenTransition.Fade)
+        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
         Text: ="Aktulani Dogodki"
         Width: =153
         Y: =124
@@ -115,7 +116,7 @@ AktualniDogodkiPage As screen:
     PretekliDogodkiButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
-        OnSelect: =Navigate(AktualniDogodkiPage,ScreenTransition.Fade)
+        OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
         Y: =209
@@ -124,6 +125,7 @@ AktualniDogodkiPage As screen:
     UrejanjePodatkovButton_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        OnSelect: =Navigate(UrejanjePodatkovScreen,ScreenTransition.Fade)
         Text: ="Urejanje podatkov"
         Width: =153
         Y: =639

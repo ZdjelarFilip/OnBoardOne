@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LecturersPage.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "LecturersScreen.Gallery1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LecturersPage.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "LecturersScreen.Gallery1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "LecturersPage",
-                "type": "LecturersPage.Gallery1"
+                "module": "LecturersScreen",
+                "type": "LecturersScreen.Gallery1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LecturersPage.Gallery1.TabIndex"
+                  "fullyQualifiedName": "LecturersScreen.Gallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LecturersPage.Gallery1.TabIndex",
+                  "fullyQualifiedName": "LecturersScreen.Gallery1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "LecturersPage",
-                "type": "LecturersPage.Gallery1"
+                "module": "LecturersScreen",
+                "type": "LecturersScreen.Gallery1"
               }
             }
           ],
@@ -254,19 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AktualniDogodkiPage.Gallery1_1.TabIndex"
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AktualniDogodkiPage.Gallery1_1.TabIndex",
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "AktualniDogodkiPage",
-                "type": "AktualniDogodkiPage.Gallery1_1"
+                "module": "AktualniDogodkiScreen",
+                "type": "AktualniDogodkiScreen.Gallery1_1"
               }
             }
           ],
@@ -284,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AktualniDogodkiPage.Gallery1_1.AccessibleLabel"
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AktualniDogodkiPage.Gallery1_1.AccessibleLabel",
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "AktualniDogodkiPage",
-                "type": "AktualniDogodkiPage.Gallery1_1"
+                "module": "AktualniDogodkiScreen",
+                "type": "AktualniDogodkiScreen.Gallery1_1"
               }
             }
           ],
