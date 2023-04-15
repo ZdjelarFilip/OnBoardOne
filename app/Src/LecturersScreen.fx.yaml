@@ -111,6 +111,7 @@ LecturersScreen As screen:
         Label1_5 As label:
             Align: =Align.Center
             BorderColor: =RGBA(186, 202, 226, 1)
+            Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Size: =20
             Text: ="OnBoardOne"
