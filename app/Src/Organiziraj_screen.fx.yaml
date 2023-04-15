@@ -407,17 +407,6 @@ Organiziraj_screen As screen:
                 Y: =DataCardKey34.Y
                 ZIndex: =4
 
-    Label1_1 As label:
-        BorderColor: =RGBA(0, 89, 178, 1)
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Size: =13
-        Text: ="Razpisani dogodki v izbranem dnevu "
-        Width: =339
-        X: =405
-        Y: =309
-        ZIndex: =17
-
     Icon10 As icon.Home:
         BorderColor: =RGBA(0, 89, 178, 1)
         Color: =RGBA(255, 255, 255, 1)
@@ -427,6 +416,17 @@ Organiziraj_screen As screen:
         OnSelect: =Navigate(WelcomeScreen,ScreenTransition.Fade)
         X: =12
         Y: =8
+        ZIndex: =17
+
+    Label1_1 As label:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Razpisani dogodki v izbranem dnevu "
+        Width: =339
+        X: =405
+        Y: =309
         ZIndex: =17
 
     Label1_3 As label:
@@ -471,4 +471,25 @@ Organiziraj_screen As screen:
         X: =953
         Y: =459
         ZIndex: =20
+
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        ChevronBackground: =RGBA(0, 51, 102, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(153, 205, 255, 1)
+        Items: =Lecturers_1
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(0, 89, 178, 1)
+        SelectionFill: =RGBA(0, 51, 102, 1)
+        Size: =13
+        X: =313
+        Y: =585
+        ZIndex: =21
 
