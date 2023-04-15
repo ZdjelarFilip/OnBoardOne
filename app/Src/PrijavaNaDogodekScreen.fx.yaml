@@ -98,6 +98,7 @@ PrijavaNaDogodekScreen As screen:
     PrijavaNaDogodekButton_3 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
         Text: ="Prijava na dogodek"
         Width: =153
         Y: =294
@@ -115,7 +116,7 @@ PrijavaNaDogodekScreen As screen:
     PretekliDogodkiButton_3 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
-        OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+        OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
         Y: =209
@@ -124,6 +125,7 @@ PrijavaNaDogodekScreen As screen:
     UrejanjePodatkovButton_3 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
+        OnSelect: =Navigate(UrejanjePodatkovScreen,ScreenTransition.Fade)
         Text: ="Urejanje podatkov"
         Width: =153
         Y: =639
