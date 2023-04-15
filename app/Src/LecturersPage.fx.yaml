@@ -68,12 +68,6 @@ LecturersPage As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    Rectangle1 As rectangle:
-        Height: =728
-        Width: =121
-        Y: =40
-        ZIndex: =10
-
     Button1 As button:
         OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
         Text: ="Dogodki"
@@ -86,4 +80,18 @@ LecturersPage As screen:
         Width: =121
         Y: =184
         ZIndex: =12
+
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =55
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1365
+        ZIndex: =13
+
+    Container5 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =713
+        LayoutMode: =LayoutMode.Auto
+        Width: =153
+        Y: =55
+        ZIndex: =14
 
