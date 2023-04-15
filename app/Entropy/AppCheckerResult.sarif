@@ -54,32 +54,32 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LecturersScreen.UrejanjePodatkovButton_5.OnSelect"
+                  "fullyQualifiedName": "LecturersScreen_1.IconDelete1.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LecturersScreen.UrejanjePodatkovButton_5.OnSelect",
+                  "fullyQualifiedName": "LecturersScreen_1.IconDelete1.DisplayMode",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 22,
-                  "charOffset": 9,
+                  "charLength": 14,
+                  "charOffset": 12,
                   "snippet": {
-                    "text": "UrejanjePodatkovScreen"
+                    "text": "BrowseGallery1"
                   }
                 }
               },
               "properties": {
-                "member": "OnSelect",
-                "module": "LecturersScreen",
-                "type": "LecturersScreen.UrejanjePodatkovButton_5"
+                "member": "DisplayMode",
+                "module": "LecturersScreen_1",
+                "type": "LecturersScreen_1.IconDelete1"
               }
             }
           ],
           "message": {
             "arguments": [
-              "UrejanjePodatkovScreen"
+              "BrowseGallery1"
             ],
             "id": "issue"
           },
@@ -88,6 +88,83 @@
           },
           "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LecturersScreen_1.IconDelete1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LecturersScreen_1.IconDelete1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 26,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "LecturersScreen_1",
+                "type": "LecturersScreen_1.IconDelete1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LecturersScreen_1.IconDelete1.DisplayMode"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LecturersScreen_1.IconDelete1.DisplayMode",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 32,
+                  "charOffset": 4,
+                  "snippet": {
+                    "text": "IsBlank(BrowseGallery1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayMode",
+                "module": "LecturersScreen_1",
+                "type": "LecturersScreen_1.IconDelete1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -117,7 +194,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -147,7 +224,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -177,7 +254,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -207,7 +284,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -237,7 +314,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -267,7 +344,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -297,7 +374,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -327,7 +404,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -347,6 +424,34 @@
                 "howToFix": [
                   "Remove or correct the reference to the name that isn't valid."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
