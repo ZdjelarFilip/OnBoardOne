@@ -82,7 +82,7 @@ AktualniDogodki_Details As screen:
         X: =1277
         ZIndex: =8
 
-    FormViewer2 As formViewer:
+    AktualniDogodki_Details_Form As formViewer:
         BorderColor: =RGBA(0, 89, 178, 1)
         DataSource: =Events_1
         Height: =396
@@ -539,8 +539,8 @@ AktualniDogodki_Details As screen:
                 PaddingTop: =0
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
+                X: =16
+                Y: =60
                 ZIndex: =2
 
     Button3 As button:
@@ -557,10 +557,10 @@ AktualniDogodki_Details As screen:
         Fill: =RGBA(0, 51, 102, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
-        OnSelect: =
+        OnSelect: =EditForm(AktualniDogodkiEdit_Form);Navigate(PrijavaNaDogodekForm, ScreenTransition.None)
         Text: ="Prijavi se na Dogodek"
         Width: =244
-        X: =1000
-        Y: =638
+        X: =1002
+        Y: =658
         ZIndex: =11
 
