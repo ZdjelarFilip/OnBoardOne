@@ -1082,7 +1082,8 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex"
+        "ZIndex",
+        "ShowNavigation"
       ],
       "GalleryTemplateChildName": "galleryTemplate2_5",
       "HasDynamicProperties": false,
@@ -1106,6 +1107,11 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ShowNavigation",
           "RuleProviderType": "Unknown"
         },
         {
