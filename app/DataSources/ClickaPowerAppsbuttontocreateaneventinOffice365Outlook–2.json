@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "8acebe6a-3f7e-4a9f-8162-6a44a9298b71",
+    "Name": "ClickaPowerAppsbuttontocreateaneventinOffice365Outlook–2",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": null
+  }
+]

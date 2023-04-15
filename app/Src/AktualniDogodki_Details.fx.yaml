@@ -319,7 +319,7 @@ AktualniDogodki_Details As screen:
             BorderColor: =RGBA(0, 89, 178, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Name}"
-            Default: =ThisItem.Name
+            Default: =ThisItem.Ime
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@Events_1],DataSourceInfo.DisplayName,"{Name}")
             Fill: =RGBA(0, 0, 0, 0)
