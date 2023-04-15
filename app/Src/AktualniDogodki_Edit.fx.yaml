@@ -30,16 +30,6 @@ AktualniDogodki_Edit As screen:
         Y: =80
         ZIndex: =2
 
-    PrijavaNaDogodekButton_9 As button:
-        Fill: =RGBA(128, 128, 128, 1)
-        Height: =61
-        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
-        OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
-        Text: ="Prijava na dogodek"
-        Width: =153
-        Y: =294
-        ZIndex: =3
-
     AktualniDogodkiButton_9 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =61
