@@ -33,6 +33,10 @@
       "Modified": "Modified",
       "OData__DisplayName": "Sensitivity",
       "OData__ExtendedDescription": "Description",
+      "SharedWithDetails": "Shared With Details",
+      "SharedWithUsers": "Shared With",
+      "SharedWithUsers#Claims": "Shared With Claims",
+      "SharedWithUsers@odata.type": "SharedWithUsers (SharedWithUsers@odata.type)",
       "Title": "Title"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",
