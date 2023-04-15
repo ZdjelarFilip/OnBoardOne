@@ -348,7 +348,7 @@ PrijavaNaDogodekScreen_test As screen:
         DisabledFill: =RGBA(244, 244, 244, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(153, 205, 255, 1)
-        Items: =DropDownSample
+        Items: =Lecture_dates
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(0, 89, 178, 1)
         SelectionFill: =RGBA(0, 51, 102, 1)

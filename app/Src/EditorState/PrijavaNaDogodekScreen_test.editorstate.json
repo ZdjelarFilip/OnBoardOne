@@ -224,7 +224,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "AktualniDogodkiButton_4",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -888,7 +888,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container5_4",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2795,7 +2795,14 @@
     "Dropdown1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Items",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Items",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "SelectionColor",
         "ChevronFill",
         "ChevronHoverFill",
@@ -2847,12 +2854,12 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Dropdown1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Value\":\"Value\"}",
+          "NameMap": "{\"Value\":\"datetime\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },
@@ -4489,7 +4496,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PretekliDogodkiButton_4",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4716,7 +4723,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "PrijavaNaDogodekForm_1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
