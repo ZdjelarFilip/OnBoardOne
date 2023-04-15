@@ -68,3 +68,21 @@ LecturersPage As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
+    Rectangle1 As rectangle:
+        Height: =728
+        Width: =121
+        Y: =40
+        ZIndex: =10
+
+    Button1 As button:
+        Text: ="Button"
+        Width: =121
+        Y: =103
+        ZIndex: =11
+
+    Button2 As button:
+        Text: ="Button"
+        Width: =121
+        Y: =184
+        ZIndex: =12
+
