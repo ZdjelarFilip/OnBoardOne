@@ -10,30 +10,12 @@
         "dataSources": {
           "Documents": {
             "tableName": "86ec8239-2007-46f4-87bd-bd0c221003fe"
-          },
-          "Events": {
-            "tableName": "85a9060b-b855-466e-9e8a-c8d52e272b78"
-          },
-          "Lecturers_2": {
-            "tableName": "cdcbf57a-bba1-4029-bede-0ccb10189dfe"
-          },
-          "Locations": {
-            "tableName": "cd70e34a-14e0-49d7-943e-c7354301c55f"
-          },
-          "WorkFreeDaysSLO": {
-            "tableName": "81013c28-697d-4302-8ea8-7df0ac456945"
           }
         }
       }
     },
     "dataSources": [
-      "Documents",
-      "Documents_1",
-      "Lecturers_1",
-      "Events",
-      "Lecturers_2",
-      "Locations",
-      "WorkFreeDaysSLO"
+      "Documents"
     ],
     "dependencies": {},
     "dependents": [],
