@@ -53,24 +53,9 @@ Organiziraj_screen As screen:
         TabIndex: =0
         Tooltip: ="Delete this item"
         Width: =88
-        X: =1189
+        X: =874
+        Y: =393
         ZIndex: =7
-
-    IconEdit1_2 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        DisplayMode: =
-        Height: =88
-        Icon: =Icon.Edit
-        OnSelect: =EditForm(AktualniDogodkiEdit_Form);Navigate(AktualniDogodki_Edit, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Edit this item"
-        Width: =88
-        X: =1277
-        ZIndex: =8
 
     DatePicker_submit As datepicker:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -109,8 +94,8 @@ Organiziraj_screen As screen:
         TabIndex: =0
         Tooltip: ="Edit this item"
         Width: =88
-        X: =441
-        Y: =348
+        X: =786
+        Y: =392
         ZIndex: =12
 
     Radio1 As radio:
@@ -118,10 +103,34 @@ Organiziraj_screen As screen:
         Color: =RGBA(0, 0, 0, 1)
         Default: =""
         HoverColor: =RGBA(0, 89, 178, 1)
-        Items: =Filter(Lecture_dates,Text(datetime) =  Text(DatePicker_submit.SelectedDate))
+        Items: |-
+            = Filter(Lecture_dates, datetime <= Date(Year(DatePicker_submit.SelectedDate), Month(DatePicker_submit.SelectedDate), Day(DatePicker_submit.SelectedDate)), datetime >= Date(Year(DatePicker_submit.SelectedDate), Month(DatePicker_submit.SelectedDate), Day(DatePicker_submit.SelectedDate)))
+             
         RadioBorderColor: =RGBA(0, 89, 178, 1)
         Size: =13
+        Width: =661
         X: =405
         Y: =471
         ZIndex: =13
+
+    Dropdown2 As dropdown:
+        BorderColor: =RGBA(0, 89, 178, 1)
+        ChevronBackground: =RGBA(0, 51, 102, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(0, 51, 102, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(153, 205, 255, 1)
+        Items: =Events_1
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(0, 89, 178, 1)
+        SelectionFill: =RGBA(0, 51, 102, 1)
+        Size: =13
+        X: =417
+        Y: =413
+        ZIndex: =15
 
