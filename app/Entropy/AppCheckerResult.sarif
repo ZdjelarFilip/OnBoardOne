@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.AccessibleLabel"
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.AccessibleLabel",
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "AktualniDogodkiScreen",
-                "type": "AktualniDogodkiScreen.Gallery1_1"
+                "type": "AktualniDogodkiScreen.Gallery3"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.TabIndex"
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery1_1.TabIndex",
+                  "fullyQualifiedName": "AktualniDogodkiScreen.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "AktualniDogodkiScreen",
-                "type": "AktualniDogodkiScreen.Gallery1_1"
+                "type": "AktualniDogodkiScreen.Gallery3"
               }
             }
           ],
