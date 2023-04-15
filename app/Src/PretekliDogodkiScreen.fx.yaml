@@ -3,12 +3,14 @@ PretekliDogodkiScreen As screen:
 
     "Gallery1_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(0, 89, 178, 1)
+        Height: =618
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        X: =405
-        Y: =80
+        Width: =1162
+        X: =186
+        Y: =124
         ZIndex: =1
 
         Image2_2 As image:

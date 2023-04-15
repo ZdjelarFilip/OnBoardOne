@@ -54,6 +54,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "LecturersScreen.UrejanjePodatkovButton_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LecturersScreen.UrejanjePodatkovButton_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "UrejanjePodatkovScreen"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "LecturersScreen",
+                "type": "LecturersScreen.UrejanjePodatkovButton_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "UrejanjePodatkovScreen"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "AktualniDogodkiScreen.Gallery3.AccessibleLabel"
                 }
               ],
