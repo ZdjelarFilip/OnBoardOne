@@ -1,19 +1,63 @@
 LecturersScreen As screen:
     Fill: =RGBA(232, 232, 232, 1)
 
-    "Gallery_lecturers As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        BorderColor: =RGBA(0, 89, 178, 1)
+    "Gallery_lecturers As gallery.'BrowseLayout_Vertical_OneTextOneImageVariant_ver4.0'":
         Height: =524
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         OnSelect: =Navigate(Lecturers_details,ScreenTransition.Fade)
         ShowNavigation: =true
         TemplatePadding: =0
-        TemplateSize: =Min(168, Self.Height - 60)
+        TemplateSize: =Min(128, Self.Height - 60)
         Width: =1102
         X: =188
         Y: =185
         ZIndex: =1
+
+        Image1 As image:
+            Height: =96
+            OnSelect: =Select(Parent)
+            Width: =96
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title1 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Owner
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image1.Width - 104
+            X: =Image1.X + Image1.Width + 24
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="View item details"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =3
+
+        Separator1 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =4
 
     Container1_5 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(217, 85, 85, 1)
