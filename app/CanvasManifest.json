@@ -128,7 +128,6 @@
     "Lecturers_details",
     "AktualniDogodki_Details",
     "Lecturers_edit",
-    "AktualniDogodki_Edit",
-    "Lecturers_create"
+    "AktualniDogodki_Edit"
   ]
 }
