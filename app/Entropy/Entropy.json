@@ -1,68 +1,26 @@
 {
-  "ComponentIndexes": {
-    "Menu": 2
-  },
+  "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Icon1": 7,
-    "Menu": 3,
-    "Screen1": 4,
-    "Screen2": 6
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/15/2023 09:42:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {
-    "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 0
-  },
-  "OrderComponentTemplate": {
-    "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 0
-  },
-  "OrderDataSource": {
-    "CustomGallerySample": 0
-  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "icon": 0
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Icon1": {},
-    "Menu": {},
-    "Screen1": {},
-    "Screen2": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Icon1": 0,
-    "Menu": 1,
-    "Screen1": 3,
-    "Screen2": 5
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0125306,
-    "ControlCount": {
-      "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 1,
-      "icon": 1,
-      "screen": 2
-    },
-    "DeserializationLoadTime": 0.0618583,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
