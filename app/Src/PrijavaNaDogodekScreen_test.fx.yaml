@@ -56,7 +56,7 @@ PrijavaNaDogodekScreen_test As screen:
         Y: =130
         ZIndex: =7
 
-        lecture_date_id_DataCard2 As typedDataCard.numberEditCard:
+        lecture_date_id_DataCard1 As typedDataCard.numberEditCard:
             BorderColor: =RGBA(0, 89, 178, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="lecture_date_id"
@@ -66,17 +66,30 @@ PrijavaNaDogodekScreen_test As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue22.Text)
+            Update: =Value(DataCardValue20.Text)
             Width: =266
             X: =0
             Y: =1
             ZIndex: =1
 
-            DataCardValue22 As text:
+            DataCardKey20 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 89, 178, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =34
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue20 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
-                Default: =pridobi id od izbranega časa in eventa iz lecture_date
+                Default: =1
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -96,10 +109,10 @@ PrijavaNaDogodekScreen_test As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey34.Y + DataCardKey34.Height + 5
+                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
                 ZIndex: =2
 
-            ErrorMessage21 As label:
+            ErrorMessage18 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -114,20 +127,20 @@ PrijavaNaDogodekScreen_test As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue22.Y + DataCardValue22.Height
+                Y: =DataCardValue20.Y + DataCardValue20.Height
                 ZIndex: =3
 
-            StarVisible21 As label:
+            StarVisible18 As label:
                 Align: =Align.Center
                 Color: =RGBA(0, 89, 178, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey34.Height
+                Height: =DataCardKey20.Height
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey34.Y
+                Y: =DataCardKey20.Y
                 ZIndex: =4
 
         Title_DataCard1 As typedDataCard.textualEditCard:
@@ -411,7 +424,7 @@ PrijavaNaDogodekScreen_test As screen:
         Y: =555
         ZIndex: =9
 
-    Dropdown1 As dropdown:
+    date_dropdown As dropdown:
         BorderColor: =RGBA(0, 89, 178, 1)
         ChevronBackground: =RGBA(0, 51, 102, 1)
         ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
