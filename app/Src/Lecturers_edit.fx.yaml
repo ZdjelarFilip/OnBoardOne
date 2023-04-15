@@ -23,7 +23,6 @@ Lecturers_edit As screen:
 
     Container5_7 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
-        Fill: =RGBA(255, 255, 255, 1)
         Height: =688
         LayoutMode: =LayoutMode.Auto
         Width: =153
@@ -31,23 +30,24 @@ Lecturers_edit As screen:
         ZIndex: =2
 
     AktualniDogodkiButton_7 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
+        Text: ="Aktualni Dogodki"
         Width: =153
-        Y: =124
+        X: =1
+        Y: =264
         ZIndex: =4
 
     PretekliDogodkiButton_7 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
         Text: ="Pretekli Dogodki"
         Width: =153
-        Y: =209
+        Y: =440
         ZIndex: =5
 
     lecturers_edit_form As form:
@@ -464,6 +464,7 @@ Lecturers_edit As screen:
 
     IconAccept1 As icon.Check:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Check
         OnSelect: =SubmitForm(lecturers_edit_form); Navigate(Lecturers_details,ScreenTransition.Fade)
@@ -479,6 +480,7 @@ Lecturers_edit As screen:
 
     IconCancel1 As icon.Cancel:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         Height: =88
         Icon: =Icon.Cancel
         OnSelect: =ResetForm(lecturers_edit_form);Back()

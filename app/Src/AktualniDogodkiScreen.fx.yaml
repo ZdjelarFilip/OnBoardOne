@@ -96,18 +96,18 @@ AktualniDogodkiScreen As screen:
         Label1_1 As label:
             Align: =Align.Center
             BorderColor: =RGBA(186, 202, 226, 1)
-            Fill: =RGBA(128, 128, 128, 1)
+            Color: =RGBA(255, 255, 255, 1)
             Size: =16
             Text: ="OnBoardOne"
             ZIndex: =1
 
         Label2 As label:
             BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(255, 255, 255, 1)
             Text: ="AKTUALNI DOGODKI"
             ZIndex: =2
 
     Container5_1 As groupContainer.horizontalAutoLayoutContainer:
-        BorderThickness: =1
         Height: =688
         LayoutAlignItems: =LayoutAlignItems.End
         LayoutDirection: =LayoutDirection.Vertical
@@ -117,17 +117,8 @@ AktualniDogodkiScreen As screen:
         Y: =80
         ZIndex: =3
 
-        AktualniDogodkiButton_1 As button:
-            Fill: =RGBA(128, 128, 128, 1)
-            Height: =61
-            OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-            Text: ="Aktulani Dogodki"
-            Width: =153
-            Y: =124
-            ZIndex: =1
-
         PretekliDogodkiButton_1 As button:
-            Fill: =RGBA(128, 128, 128, 1)
+            Fill: =RGBA(217, 85, 85, 1)
             Height: =61
             OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
             Text: ="Pretekli Dogodki"
@@ -137,6 +128,7 @@ AktualniDogodkiScreen As screen:
 
     IconNewItem1_1 As icon.Add:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =If(DataSourceInfo([@Lecturers_1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Add

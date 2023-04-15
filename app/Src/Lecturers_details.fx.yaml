@@ -30,17 +30,17 @@ Lecturers_details As screen:
         ZIndex: =2
 
     AktualniDogodkiButton_6 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
-        Text: ="Aktulani Dogodki"
+        Text: ="Aktualni Dogodki"
         Width: =153
         Y: =309
         ZIndex: =4
 
     PretekliDogodkiButton_6 As button:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =61
         HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PretekliDogodkiScreen,ScreenTransition.Fade)
@@ -256,6 +256,7 @@ Lecturers_details As screen:
 
     IconDelete1 As icon.Trash:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =
         Height: =88
         Icon: =Icon.Trash
@@ -273,6 +274,7 @@ Lecturers_details As screen:
 
     IconEdit1 As icon.Edit:
         AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =
         Height: =88
         Icon: =Icon.Edit
