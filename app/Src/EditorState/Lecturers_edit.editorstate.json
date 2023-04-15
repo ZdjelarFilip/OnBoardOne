@@ -450,7 +450,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container1_7",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6535,18 +6535,9 @@
       "StyleName": "defaultTypedDataCardStyle",
       "Type": "ControlInfo"
     },
-    "IconDelete1_1": {
+    "IconAccept1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "OnSelect",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -6572,6 +6563,7 @@
         "DisabledFill",
         "PressedFill",
         "HoverFill",
+        "DisplayMode",
         "X",
         "Y",
         "Width",
@@ -6583,6 +6575,15 @@
         "HoverBorderColor",
         "FocusedBorderColor",
         "ZIndex",
+        "AutoDisableOnSelect",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "SubmitForm(EditForm1)",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "PaddingLeft",
         "PaddingRight",
         "PaddingTop",
@@ -6598,8 +6599,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "IconDelete1_1",
-      "ParentIndex": 3,
+      "Name": "IconAccept1",
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6719,6 +6720,11 @@
         },
         {
           "Category": "Design",
+          "PropertyName": "AutoDisableOnSelect",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
           "PropertyName": "PaddingLeft",
           "RuleProviderType": "Unknown"
         },
@@ -6751,18 +6757,9 @@
       "StyleName": "invertedBkgHeaderIconStyle",
       "Type": "ControlInfo"
     },
-    "IconEdit1_1": {
+    "IconCancel1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "OnSelect",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -6788,6 +6785,7 @@
         "DisabledFill",
         "PressedFill",
         "HoverFill",
+        "DisplayMode",
         "X",
         "Y",
         "Width",
@@ -6799,6 +6797,14 @@
         "HoverBorderColor",
         "FocusedBorderColor",
         "ZIndex",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ResetForm(EditForm1);Back()",
+          "InvariantPropertyName": "OnSelect",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "PaddingLeft",
         "PaddingRight",
         "PaddingTop",
@@ -6814,8 +6820,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "IconEdit1_1",
-      "ParentIndex": 1,
+      "Name": "IconCancel1",
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7430,7 +7436,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "lecturers_edit_form",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
