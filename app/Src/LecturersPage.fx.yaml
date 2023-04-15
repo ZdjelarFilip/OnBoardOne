@@ -77,25 +77,44 @@ LecturersPage As screen:
 
     Container5 As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(199, 48, 48, 1)
-        Fill: =RGBA(201, 48, 48, 1)
+        Fill: =RGBA(217, 85, 85, 1)
         Height: =713
         LayoutMode: =LayoutMode.Auto
         Width: =153
         Y: =55
         ZIndex: =3
 
-    Button2 As button:
+    PrijavaNaDogodekButton As button:
         Fill: =RGBA(128, 128, 128, 1)
-        Text: ="Button"
-        Width: =121
-        Y: =184
+        Height: =61
+        Text: ="Prijava na dogodek"
+        Width: =153
+        Y: =294
         ZIndex: =4
 
-    Button1 As button:
+    AktualniDogodkiButton As button:
         Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
         OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
-        Text: ="Dogodki"
-        Width: =121
-        Y: =128
+        Text: ="Aktulani Dogodki"
+        Width: =153
+        Y: =124
         ZIndex: =5
+
+    PretekliDogodkiButton As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
+        Text: ="Pretekli Dogodki"
+        Width: =153
+        Y: =209
+        ZIndex: =6
+
+    UrejanjePodatkovButton As button:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =61
+        Text: ="Urejanje podatkov"
+        Width: =153
+        Y: =639
+        ZIndex: =7
 
