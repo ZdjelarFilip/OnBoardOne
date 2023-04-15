@@ -1,9 +1,27 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "GalleryNavigation": 12,
+    "galleryTemplate1": 13,
+    "GroupBackground": 19,
+    "GroupNavigation": 18,
+    "HtmlText1": 17,
+    "iconHamburgerMenu_6": 11,
+    "Image1": 14,
+    "ImagePowerAppsLogo": 8,
+    "Label4": 15,
+    "Rectangle1_1": 16,
+    "Rectangle2_5": 10,
+    "Screen1": 5,
+    "Screen2": 6,
+    "WelcomeScreenTitle": 9,
+    "WelcomeScreenTitleBackground": 7
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "04/15/2023 09:43:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -11,16 +29,90 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
-  "OrderGroupControls": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 0
+  },
+  "OrderGroupControls": {
+    "GroupBackground": {
+      "ImagePowerAppsLogo": 2,
+      "WelcomeScreenTitle": 1,
+      "WelcomeScreenTitleBackground": 0
+    },
+    "GroupNavigation": {
+      "GalleryNavigation": 0,
+      "iconHamburgerMenu_6": 1,
+      "Rectangle2_5": 2
+    }
+  },
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 4,
+    "htmlViewer": 5,
+    "icon": 3,
+    "image": 1,
+    "label": 2,
+    "rectangle": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "GalleryNavigation": {},
+    "galleryTemplate1": {},
+    "GroupBackground": {},
+    "GroupNavigation": {},
+    "HtmlText1": {},
+    "iconHamburgerMenu_6": {},
+    "Image1": {},
+    "ImagePowerAppsLogo": {},
+    "Label4": {},
+    "Rectangle1_1": {},
+    "Rectangle2_5": {},
+    "Screen1": {},
+    "Screen2": {},
+    "WelcomeScreenTitle": {},
+    "WelcomeScreenTitleBackground": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "GalleryNavigation": 11,
+    "galleryTemplate1": 15,
+    "GroupBackground": 14,
+    "GroupNavigation": 13,
+    "HtmlText1": 12,
+    "iconHamburgerMenu_6": 10,
+    "Image1": 16,
+    "ImagePowerAppsLogo": 7,
+    "Label4": 17,
+    "Rectangle1_1": 18,
+    "Rectangle2_5": 9,
+    "Screen1": 4,
+    "Screen2": 5,
+    "WelcomeScreenTitle": 8,
+    "WelcomeScreenTitleBackground": 6
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0353468,
+    "ControlCount": {
+      "68f8f9fa1e5f42e4b1bdef304e2a5c9f": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "group": 2,
+      "htmlViewer": 1,
+      "icon": 2,
+      "image": 2,
+      "label": 2,
+      "rectangle": 3,
+      "screen": 2
+    },
+    "DeserializationLoadTime": 0.1244502,
+    "ErrorCount": 22
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
