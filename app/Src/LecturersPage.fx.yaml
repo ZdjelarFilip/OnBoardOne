@@ -75,9 +75,10 @@ LecturersPage As screen:
         ZIndex: =10
 
     Button1 As button:
-        Text: ="Button"
+        OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
+        Text: ="Dogodki"
         Width: =121
-        Y: =103
+        Y: =128
         ZIndex: =11
 
     Button2 As button:
