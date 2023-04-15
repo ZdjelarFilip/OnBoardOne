@@ -1,6 +1,8 @@
 PretekliDogodkiScreen As screen:
+    Fill: =RGBA(232, 232, 232, 1)
 
     "Gallery1_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(0, 89, 178, 1)
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
@@ -10,6 +12,9 @@ PretekliDogodkiScreen As screen:
         ZIndex: =1
 
         Image2_2 As image:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =128
             OnSelect: =Select(Parent)
             Width: =128
@@ -18,12 +23,16 @@ PretekliDogodkiScreen As screen:
             ZIndex: =1
 
         Title1_2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =20
             Text: =ThisItem.Owner
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image2_2.Width - 104
@@ -32,12 +41,15 @@ PretekliDogodkiScreen As screen:
             ZIndex: =2
 
         Subtitle1_2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =18
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1_2.Width
@@ -47,6 +59,10 @@ PretekliDogodkiScreen As screen:
 
         NextArrow1_2 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Color: =RGBA(0, 89, 178, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent)
@@ -62,6 +78,8 @@ PretekliDogodkiScreen As screen:
             ZIndex: =4
 
         Separator1_2 As rectangle:
+            BorderColor: =RGBA(0, 89, 178, 1)
+            Fill: =RGBA(0, 89, 178, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
@@ -81,6 +99,8 @@ PretekliDogodkiScreen As screen:
         Label1_2 As label:
             Align: =Align.Center
             BorderColor: =RGBA(186, 202, 226, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Fill: =RGBA(128, 128, 128, 1)
             Size: =16
             Text: ="OnBoardOne"
@@ -96,38 +116,50 @@ PretekliDogodkiScreen As screen:
         ZIndex: =3
 
     PrijavaNaDogodekButton_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(128, 128, 128, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =61
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(PrijavaNaDogodekScreen,ScreenTransition.Fade)
+        Size: =15
         Text: ="Prijava na dogodek"
         Width: =153
         Y: =294
         ZIndex: =4
 
     AktualniDogodkiButton_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(128, 128, 128, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =61
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+        Size: =15
         Text: ="Aktulani Dogodki"
         Width: =153
         Y: =124
         ZIndex: =5
 
     PretekliDogodkiButton_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(128, 128, 128, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =61
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(0, 51, 102, 1), -20%)
         OnSelect: =Navigate(AktualniDogodkiScreen,ScreenTransition.Fade)
+        Size: =15
         Text: ="Pretekli Dogodki"
         Width: =153
         Y: =209
         ZIndex: =6
-
-    UrejanjePodatkovButton_2 As button:
-        Fill: =RGBA(128, 128, 128, 1)
-        Height: =61
-        OnSelect: =Navigate(UrejanjePodatkovScreen,ScreenTransition.Fade)
-        Text: ="Urejanje podatkov"
-        Width: =153
-        Y: =639
-        ZIndex: =7
 

@@ -64,7 +64,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "AktualniDogodkiButton_5",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -534,7 +534,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container1_5",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -708,7 +708,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container5_5",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -876,7 +876,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1_5",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1293,14 +1293,7 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -1312,14 +1305,7 @@
         "VerticalAlign",
         "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
         "Height",
         "DisplayMode",
         "ZIndex",
@@ -1965,7 +1951,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PretekliDogodkiButton_5",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2230,7 +2216,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "PrijavaNaDogodekButton_5",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3056,7 +3042,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "UrejanjePodatkovButton_5",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
