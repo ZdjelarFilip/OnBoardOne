@@ -111,7 +111,6 @@ AktualniDogodki_Details As screen:
             DataCardKey12 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -124,14 +123,11 @@ AktualniDogodki_Details As screen:
             DataCardValue12 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -156,7 +152,6 @@ AktualniDogodki_Details As screen:
             DataCardKey13 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -169,14 +164,11 @@ AktualniDogodki_Details As screen:
             DataCardValue13 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 Y: =52
@@ -200,7 +192,6 @@ AktualniDogodki_Details As screen:
             DataCardKey14 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -213,14 +204,11 @@ AktualniDogodki_Details As screen:
             DataCardValue14 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -245,7 +233,6 @@ AktualniDogodki_Details As screen:
             DataCardKey15 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -258,14 +245,11 @@ AktualniDogodki_Details As screen:
             DataCardValue15 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -290,7 +274,6 @@ AktualniDogodki_Details As screen:
             DataCardKey16 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -303,14 +286,11 @@ AktualniDogodki_Details As screen:
             DataCardValue16 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -335,7 +315,6 @@ AktualniDogodki_Details As screen:
             DataCardKey17 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -348,14 +327,11 @@ AktualniDogodki_Details As screen:
             DataCardValue17 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -380,7 +356,6 @@ AktualniDogodki_Details As screen:
             DataCardKey18 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -393,14 +368,11 @@ AktualniDogodki_Details As screen:
             DataCardValue18 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -425,7 +397,6 @@ AktualniDogodki_Details As screen:
             DataCardKey19 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -438,14 +409,11 @@ AktualniDogodki_Details As screen:
             DataCardValue19 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -470,7 +438,6 @@ AktualniDogodki_Details As screen:
             DataCardKey20 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -483,14 +450,11 @@ AktualniDogodki_Details As screen:
             DataCardValue20 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -515,7 +479,6 @@ AktualniDogodki_Details As screen:
             DataCardKey21 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -528,14 +491,11 @@ AktualniDogodki_Details As screen:
             DataCardValue21 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
@@ -560,7 +520,6 @@ AktualniDogodki_Details As screen:
             DataCardKey22 As label:
                 AutoHeight: =true
                 Color: =RGBA(0, 89, 178, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =34
                 Size: =20
                 Text: =Parent.DisplayName
@@ -573,14 +532,11 @@ AktualniDogodki_Details As screen:
             DataCardValue22 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 89, 178, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Size: =13
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
