@@ -5,8 +5,8 @@ LecturersPage As screen:
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        X: =302
-        Y: =127
+        X: =405
+        Y: =80
         ZIndex: =9
 
         Image2 As image:
@@ -41,8 +41,8 @@ LecturersPage As screen:
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
-            X: =Title1.X
-            Y: =Title1.Y + Title1.Height + 4
+            X: =168
+            Y: =80
             ZIndex: =3
 
         NextArrow1 As icon.ChevronRight:
