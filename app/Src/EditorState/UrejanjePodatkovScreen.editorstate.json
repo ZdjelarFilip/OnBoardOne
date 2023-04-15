@@ -289,7 +289,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container1_4",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -631,7 +631,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1_4",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1350,7 +1350,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryNextIcon.ID%",
       "Name": "NextArrow1_4",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2181,7 +2181,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGallerySubtitle.ID%",
       "Name": "Subtitle1_4",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
