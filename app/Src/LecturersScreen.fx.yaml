@@ -25,8 +25,8 @@ LecturersScreen As screen:
             Text: =ThisItem.Owner
             VerticalAlign: =VerticalAlign.Top
             Width: =163
-            X: =32
-            Y: =65
+            X: =40
+            Y: =66
             ZIndex: =1
 
         Subtitle8 As label:
@@ -39,8 +39,8 @@ LecturersScreen As screen:
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
             Width: =108
-            X: =299
-            Y: =73
+            X: =235
+            Y: =70
             ZIndex: =2
 
         Body4 As label:
@@ -53,7 +53,7 @@ LecturersScreen As screen:
             Text: =ThisItem.Location
             VerticalAlign: =VerticalAlign.Top
             Width: =115
-            X: =467
+            X: =343
             Y: =69
             ZIndex: =3
 
@@ -85,7 +85,7 @@ LecturersScreen As screen:
             ZIndex: =5
 
         Email As label:
-            Height: =32
+            Height: =30
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -93,9 +93,9 @@ LecturersScreen As screen:
             PaddingTop: =0
             Text: =ThisItem.Email
             VerticalAlign: =VerticalAlign.Top
-            Width: =469
-            X: =633
-            Y: =68
+            Width: =404
+            X: =506
+            Y: =70
             ZIndex: =6
 
     Container1_5 As groupContainer.verticalAutoLayoutContainer:
