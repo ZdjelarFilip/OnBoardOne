@@ -1,4 +1,38 @@
 {
+  "34691a20-c3f7-4807-9355-ded0ba503399": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1627/1.0.1627.3238/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://univerzamb.sharepoint.com/sites/OnBoardOne_1": {
+        "dataSources": {
+          "Events_1": {
+            "tableName": "85a9060b-b855-466e-9e8a-c8d52e272b78"
+          },
+          "Lecturers_3": {
+            "tableName": "cdcbf57a-bba1-4029-bede-0ccb10189dfe"
+          },
+          "Locations_1": {
+            "tableName": "cd70e34a-14e0-49d7-943e-c7354301c55f"
+          },
+          "WorkFreeDaysSLO_1": {
+            "tableName": "81013c28-697d-4302-8ea8-7df0ac456945"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Events_1",
+      "Lecturers_3",
+      "Locations_1",
+      "WorkFreeDaysSLO_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "34691a20-c3f7-4807-9355-ded0ba503399"
+  },
   "377d6d9e-2d35-473d-9dae-50ef1a0d2e46": {
     "connectionRef": {
       "displayName": "SharePoint",

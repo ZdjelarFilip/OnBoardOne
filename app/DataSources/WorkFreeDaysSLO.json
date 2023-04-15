@@ -1,0 +1,44 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-04-04T16:26:56.0030000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Priloge",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Ime datoteke s pripono",
+      "{FullPath}": "Celotna pot",
+      "{HasAttachments}": "Ima priloge",
+      "{Identifier}": "Identifikator",
+      "{IsFolder}": "IsFolder",
+      "{Link}": "Povezava do elementa",
+      "{ModerationComment}": "Pripombe, povezane z odobritvijo vsebine tega elementa seznama",
+      "{ModerationStatus}": "Stanje odobritve vsebine",
+      "{Name}": "Ime",
+      "{Path}": "Pot mape",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Žeton za konec okna sprožilca",
+      "{TriggerWindowStartToken}": "Žeton začetnega okna sprožilca",
+      "{VersionNumber}": "Številka različice",
+      "Author": "Ustvaril",
+      "Author#Claims": "Ustvaril Claims",
+      "ComplianceAssetId": "ID sredstev skladnosti s predpisi",
+      "Created": "Ustvarjeno",
+      "Editor": "Spremenil",
+      "Editor#Claims": "Spremenil Claims",
+      "field_0": "WFD",
+      "ID": "ID",
+      "Modified": "Spremenjeno",
+      "Title": "Name"
+    },
+    "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "WorkFreeDaysSLO",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
