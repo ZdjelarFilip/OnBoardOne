@@ -68,14 +68,6 @@ LecturersPage As screen:
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    Rectangle1 As rectangle:
-        BorderColor: =RGBA(237, 59, 59, 1)
-        Fill: =RGBA(204, 65, 65, 1)
-        Height: =728
-        Width: =121
-        Y: =40
-        ZIndex: =10
-
     Button1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
@@ -90,4 +82,18 @@ LecturersPage As screen:
         Width: =121
         Y: =184
         ZIndex: =12
+
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =55
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1365
+        ZIndex: =13
+
+    Container5 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =713
+        LayoutMode: =LayoutMode.Auto
+        Width: =153
+        Y: =55
+        ZIndex: =14
 
