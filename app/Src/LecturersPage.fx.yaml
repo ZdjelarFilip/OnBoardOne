@@ -69,6 +69,7 @@ LecturersPage As screen:
             ZIndex: =5
 
     Button1 As button:
+        Fill: =RGBA(128, 128, 128, 1)
         OnSelect: =Navigate(Screen1,ScreenTransition.Fade)
         Text: ="Dogodki"
         Width: =121
@@ -76,6 +77,7 @@ LecturersPage As screen:
         ZIndex: =11
 
     Button2 As button:
+        Fill: =RGBA(128, 128, 128, 1)
         Text: ="Button"
         Width: =121
         Y: =184
