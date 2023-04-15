@@ -80,11 +80,9 @@ LecturersPage As screen:
 
         Label1 As label:
             Align: =Align.Center
-            AutoHeight: =true
             BorderColor: =RGBA(186, 202, 226, 1)
             Fill: =RGBA(128, 128, 128, 1)
-            FillPortions: =1
-            Size: =24
+            Size: =16
             Text: ="OnBoardOne"
             ZIndex: =1
 
