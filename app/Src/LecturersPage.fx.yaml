@@ -1,22 +1,12 @@
 LecturersPage As screen:
 
-    HtmlText1 As htmlViewer:
-        Height: =613
-        HoverBorderColor: =HtmlText1.BorderColor
-        HtmlText: =""
-        PressedBorderColor: =HtmlText1.BorderColor
-        Width: =1084
-        X: =If(!IsExpand, 240, 90)
-        Y: =155
-        ZIndex: =8
-
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         Items: =Lecturers_1
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        X: =302
-        Y: =127
+        X: =405
+        Y: =80
         ZIndex: =9
 
         Image2 As image:
@@ -51,8 +41,8 @@ LecturersPage As screen:
             Text: =ThisItem.Department
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
-            X: =Title1.X
-            Y: =Title1.Y + Title1.Height + 4
+            X: =168
+            Y: =80
             ZIndex: =3
 
         NextArrow1 As icon.ChevronRight:
@@ -77,174 +67,4 @@ LecturersPage As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
-
-    GroupNavigation As group:
-        Height: =5
-        Width: =5
-        X: =60
-        Y: =60
-        ZIndex: =9
-
-        GalleryNavigation As gallery.galleryVertical:
-            BorderColor: =RGBA(101, 128, 187, 1)
-            DisabledBorderColor: =GalleryNavigation.BorderColor
-            DisabledFill: =GalleryNavigation.Fill
-            Fill: =RGBA(0,0,0,0)
-            HoverBorderColor: =GalleryNavigation.BorderColor
-            HoverFill: =GalleryNavigation.Fill
-            Layout: =Layout.Vertical
-            LoadingSpinnerColor: =GalleryNavigation.BorderColor
-            OnSelect: |-
-                =Set(ThisItem);
-                If(
-                    ThisItem.Row = 1, Navigate(Screen1, BorderStyle.None)
-                );
-            PressedBorderColor: =GalleryNavigation.BorderColor
-            PressedFill: =GalleryNavigation.Fill
-            ShowScrollbar: =false
-            TemplateFill: =If(ThisItem.Row = _selectedTutorial.Row, RGBA(220, 220, 220, 1), RGBA(0,0,0,0))
-            TemplatePadding: =0
-            TemplateSize: =42
-            Width: =If(IsExpand, 50, 200)
-            X: =0+0
-            Y: =109
-            ZIndex: =2
-
-            Image1 As image:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                FocusedBorderColor: =Image1.BorderColor
-                Height: =Parent.TemplateHeight
-                HoverBorderColor: =ColorFade(Image1.BorderColor, 20%)
-                HoverFill: =ColorFade(Image1.Fill, 20%)
-                Image: =ThisItem.Image
-                OnSelect: =Select(Parent)
-                PaddingBottom: =12
-                PaddingTop: =12
-                PressedBorderColor: =ColorFade(Image1.BorderColor, -20%)
-                PressedFill: =ColorFade(Image1.Fill, -20%)
-                Width: =Image1.Height - 10
-                X: =15
-                ZIndex: =1
-
-            Label4 As label:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                Color: =RGBA(47,41,43,1)
-                FocusedBorderColor: =Label4.BorderColor
-                FocusedBorderThickness: =2
-                Height: =42
-                HoverBorderColor: =Label4.BorderColor
-                HoverColor: =Label4.Color
-                HoverFill: =Label4.Fill
-                OnSelect: =Select(Parent)
-                PressedBorderColor: =Label4.BorderColor
-                PressedColor: =Label4.Color
-                PressedFill: =Label4.Fill
-                Size: =10
-                TabIndex: =0
-                Text: =ThisItem.Title
-                X: =50
-                ZIndex: =2
-
-            Rectangle1_1 As rectangle:
-                BorderColor: =RGBA(101, 128, 187, 1)
-                DisabledFill: =Rectangle1_1.Fill
-                Fill: =RGBA(116, 39, 116, 1)
-                FocusedBorderColor: =Rectangle1_1.BorderColor
-                Height: =20
-                HoverFill: =Rectangle1_1.Fill
-                OnSelect: =Select(Parent)
-                PressedFill: =Rectangle1_1.Fill
-                Visible: =ThisItem.Row = _selectedTutorial.Row
-                Width: =4
-                X: =11
-                Y: =11
-                ZIndex: =3
-
-        iconHamburgerMenu_6 As icon.Hamburger:
-            BorderColor: =RGBA(101, 128, 187, 1)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledFill: =iconHamburgerMenu_6.Fill
-            FocusedBorderColor: =iconHamburgerMenu_6.BorderColor
-            Height: =16
-            HoverBorderColor: =ColorFade(iconHamburgerMenu_6.BorderColor, 20%)
-            HoverColor: =ColorFade(iconHamburgerMenu_6.Color, 20%)
-            HoverFill: =iconHamburgerMenu_6.Fill
-            Icon: =Icon.Hamburger
-            OnSelect: =Set(IsExpand, !IsExpand)
-            PressedBorderColor: =ColorFade(iconHamburgerMenu_6.BorderColor, -20%)
-            PressedColor: =ColorFade(iconHamburgerMenu_6.Color, -20%)
-            PressedFill: =iconHamburgerMenu_6.Fill
-            TabIndex: =0
-            Width: =16
-            X: =24+0
-            Y: =76
-            ZIndex: =3
-
-        Rectangle2_5 As rectangle:
-            BorderColor: =RGBA(101, 128, 187, 1)
-            DisabledFill: =Rectangle2_5.Fill
-            Fill: =RGBA(166, 166, 166, 1)
-            FocusedBorderColor: =Rectangle2_5.BorderColor
-            Height: =707
-            HoverFill: =Rectangle2_5.Fill
-            PressedFill: =Rectangle2_5.Fill
-            Width: =1
-            X: =If(!IsExpand, 200, 50)
-            Y: =61
-            ZIndex: =4
-
-    GroupBackground As group:
-        Height: =5
-        Width: =5
-        X: =60
-        Y: =60
-        ZIndex: =10
-
-        WelcomeScreenTitleBackground As rectangle:
-            BorderColor: =RGBA(51, 51, 51, 1)
-            DisabledFill: =WelcomeScreenTitleBackground.Fill
-            Fill: =RGBA(116, 39, 116, 1)
-            FocusedBorderColor: =WelcomeScreenTitleBackground.BorderColor
-            Height: =60
-            HoverFill: =WelcomeScreenTitleBackground.Fill
-            PressedFill: =WelcomeScreenTitleBackground.Fill
-            Width: =1366
-            Y: =1
-            ZIndex: =5
-
-        WelcomeScreenTitle As label:
-            BorderColor: =RGBA(51, 51, 51, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =WelcomeScreenTitle.BorderColor
-            Font: =Font.'Segoe UI'
-            Height: =32
-            HoverBorderColor: =WelcomeScreenTitle.BorderColor
-            HoverColor: =WelcomeScreenTitle.Color
-            HoverFill: =WelcomeScreenTitle.Fill
-            LineHeight: =0
-            PressedBorderColor: =WelcomeScreenTitle.BorderColor
-            PressedColor: =WelcomeScreenTitle.Color
-            PressedFill: =WelcomeScreenTitle.Fill
-            Size: =18
-            Text: |-
-                ="OnBoardOne
-                "
-            Width: =350
-            X: =74
-            Y: =15
-            ZIndex: =6
-
-        ImagePowerAppsLogo As image:
-            BorderColor: =RGBA(51, 51, 51, 1)
-            FocusedBorderColor: =ImagePowerAppsLogo.BorderColor
-            Height: =48
-            HoverBorderColor: =ColorFade(ImagePowerAppsLogo.BorderColor, 20%)
-            HoverFill: =ColorFade(ImagePowerAppsLogo.Fill, 20%)
-            Image: =PowerApps
-            PressedBorderColor: =ColorFade(ImagePowerAppsLogo.BorderColor, -20%)
-            PressedFill: =ColorFade(ImagePowerAppsLogo.Fill, -20%)
-            Width: =48
-            X: =1318
-            Y: =7
-            ZIndex: =7
 
