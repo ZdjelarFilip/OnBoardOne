@@ -32,6 +32,7 @@
       "field_0": "WFD",
       "ID": "ID",
       "Modified": "Modified",
+      "OData__ColorTag": "Color Tag",
       "Title": "Name (Title)"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",

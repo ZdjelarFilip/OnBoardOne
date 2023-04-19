@@ -33,6 +33,7 @@
       "field_2": "Capacity",
       "ID": "ID",
       "Modified": "Modified",
+      "OData__ColorTag": "Color Tag",
       "Title": "City"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",

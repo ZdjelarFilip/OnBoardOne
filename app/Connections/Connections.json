@@ -29,7 +29,9 @@
       "Locations_1",
       "WorkFreeDaysSLO_1",
       "Lecture_dates",
-      "PrijavljeniNaDogodek_1"
+      "PrijavljeniNaDogodek_1",
+      "Documents_1",
+      "Lecturers_1"
     ],
     "dependencies": {},
     "dependents": [],

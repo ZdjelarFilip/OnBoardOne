@@ -92,24 +92,6 @@ Organiziraj_screen As screen:
         Y: =151
         ZIndex: =7
 
-    IconEdit1_3 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        Color: =RGBA(217, 85, 85, 1)
-        DisplayMode: =
-        Height: =82
-        Icon: =Icon.Add
-        OnSelect: =SubmitForm(Form1); 
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Edit this item"
-        Width: =88
-        X: =1061
-        Y: =616
-        ZIndex: =8
-
     Radio1 As radio:
         BorderColor: =RGBA(0, 89, 178, 1)
         Color: =RGBA(0, 0, 0, 1)
@@ -123,7 +105,7 @@ Organiziraj_screen As screen:
         Width: =661
         X: =327
         Y: =668
-        ZIndex: =9
+        ZIndex: =8
 
     Dropdown_event_org As dropdown:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -144,17 +126,17 @@ Organiziraj_screen As screen:
         Size: =13
         X: =670
         Y: =204
-        ZIndex: =10
+        ZIndex: =9
 
     Form1 As form:
         BorderColor: =RGBA(0, 89, 178, 1)
         DataSource: =Lecture_dates
         DefaultMode: =FormMode.New
         Height: =231
-        Width: =983
+        Width: =987
         X: =221
         Y: =497
-        ZIndex: =11
+        ZIndex: =10
 
         lecturer_id_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(0, 89, 178, 1)
@@ -169,7 +151,7 @@ Organiziraj_screen As screen:
             Required: =false
             Update: =DataCardValue11.Text
             Visible: =false
-            Width: =327
+            Width: =329
             X: =2
             Y: =0
             ZIndex: =1
@@ -256,7 +238,7 @@ Organiziraj_screen As screen:
             Height: =114
             Required: =false
             Update: =DateValue1.SelectedDate + Time(Value(HourValue1.Selected.Value), Value(MinuteValue1.Selected.Value), 0)
-            Width: =327
+            Width: =329
             X: =0
             Y: =0
             ZIndex: =17
@@ -421,7 +403,7 @@ Organiziraj_screen As screen:
             Required: =false
             Update: =DataCardValue22.Text
             Visible: =false
-            Width: =327
+            Width: =329
             X: =1
             Y: =0
             ZIndex: =17
@@ -506,7 +488,7 @@ Organiziraj_screen As screen:
         Width: =339
         X: =670
         Y: =150
-        ZIndex: =12
+        ZIndex: =11
 
     Icon10 As icon.Home:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -517,7 +499,7 @@ Organiziraj_screen As screen:
         OnSelect: =Navigate(WelcomeScreen,ScreenTransition.Fade)
         X: =12
         Y: =8
-        ZIndex: =13
+        ZIndex: =12
 
     Label1_3 As label:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -529,7 +511,7 @@ Organiziraj_screen As screen:
         Width: =339
         X: =232
         Y: =313
-        ZIndex: =14
+        ZIndex: =13
 
     Dropdown_event_org_1 As dropdown:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -550,7 +532,7 @@ Organiziraj_screen As screen:
         Size: =13
         X: =238
         Y: =423
-        ZIndex: =15
+        ZIndex: =14
 
     Label1_8 As label:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -561,7 +543,7 @@ Organiziraj_screen As screen:
         Width: =339
         X: =238
         Y: =383
-        ZIndex: =16
+        ZIndex: =15
 
     Dropdown1 As dropdown:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -582,7 +564,7 @@ Organiziraj_screen As screen:
         Size: =13
         X: =639
         Y: =421
-        ZIndex: =17
+        ZIndex: =16
 
     Label1_10 As label:
         BorderColor: =RGBA(0, 89, 178, 1)
@@ -593,7 +575,7 @@ Organiziraj_screen As screen:
         Width: =339
         X: =638
         Y: =364
-        ZIndex: =18
+        ZIndex: =17
 
     Label12 As label:
         Align: =Align.Center
@@ -604,7 +586,7 @@ Organiziraj_screen As screen:
         Text: ="Dodaj dogodek"
         X: =1030
         Y: =687
-        ZIndex: =19
+        ZIndex: =18
 
     Label13 As label:
         Align: =Align.Center
@@ -615,5 +597,23 @@ Organiziraj_screen As screen:
         Text: ="Izbriši"
         X: =1030
         Y: =273
-        ZIndex: =21
+        ZIndex: =19
+
+    IconEdit1_3 As icon.Edit:
+        AccessibleLabel: =Self.Tooltip
+        Color: =RGBA(217, 85, 85, 1)
+        DisplayMode: =
+        Height: =82
+        Icon: =Icon.Add
+        OnSelect: =SubmitForm(Form1); 
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Edit this item"
+        Width: =88
+        X: =1061
+        Y: =616
+        ZIndex: =20
 

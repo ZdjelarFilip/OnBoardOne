@@ -62,7 +62,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "__PowerAppsId___DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -629,7 +629,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "BASE64_DR_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1248,7 +1248,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Container1_8",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5449,7 +5449,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Event_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5583,7 +5583,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Event_SLO_DataCard1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5707,7 +5707,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon3",
-      "ParentIndex": 0,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5898,7 +5898,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconDelete1_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6114,7 +6114,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconEdit1_1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6328,7 +6328,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ID_DataCard1",
-      "ParentIndex": 4,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6790,7 +6790,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Owner_LJ_DataCard1",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6924,7 +6924,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Owner_MB_DataCard1",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

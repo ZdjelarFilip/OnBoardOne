@@ -41,6 +41,7 @@
       "field_9": "Text_SLO_F",
       "ID": "ID",
       "Modified": "Modified",
+      "OData__ColorTag": "Color Tag",
       "Title": "Event"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",

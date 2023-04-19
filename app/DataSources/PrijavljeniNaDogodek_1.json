@@ -34,6 +34,7 @@
       "lecture_date_id": "lecture_date_id",
       "Modified": "Modified",
       "OData___PowerAppsId__": "__PowerAppsId__",
+      "OData__ColorTag": "Color Tag",
       "Title": "Title"
     },
     "DatasetName": "https://univerzamb.sharepoint.com/sites/OnBoardOne_1",
